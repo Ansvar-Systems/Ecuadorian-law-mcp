@@ -4,29 +4,31 @@ mcp_name: "Ecuador Law MCP"
 jurisdiction: "EC"
 
 sources:
-  - name: "Ecuador Official Legal Database"
-    authority: "Government of Ecuador"
-    official_portal: "https://registroficial.gob.ec"
-    canonical_identifier: "TBD"
-    retrieval_method: "HTML"
-    api_documentation: "N/A"
-    update_frequency: "TBD"
-    last_ingested: "PENDING_FIRST_INGEST"
+  - name: "Asamblea Nacional del Ecuador"
+    authority: "Asamblea Nacional del Ecuador"
+    official_portal: "https://www.asambleanacional.gob.ec/es/leyes-aprobadas"
+    canonical_identifier: "ec-ley"
+    retrieval_method: "PDF (pdftotext extraction)"
+    api_documentation: "N/A (Drupal views listing)"
+    update_frequency: "As laws are approved"
+    last_ingested: "2026-02-28"
     license_or_terms:
       type: "Government Publication"
-      url: "https://registroficial.gob.ec"
+      url: "https://www.asambleanacional.gob.ec"
       summary: "Official government legal database; legislation is public domain as government publication"
     coverage:
-      scope: "TBD -- update after census"
-      limitations: "TBD -- update after census"
+      scope: "301 approved laws across 4 legislative periods (2009-2026), including organic codes, organic laws, and ordinary laws"
+      limitations: "PDF-based extraction; some scanned documents may have limited text extraction quality"
     languages:
-      - "en"
+      - "es"
 
 data_freshness:
   automated_checks: false
-  check_frequency: "TBD"
-  last_verified: "2026-02-27"
+  check_frequency: "monthly"
+  last_verified: "2026-02-28"
 
 # Notes:
-# - Source URL: registroficial.gob.ec
-# - Update this file after completing census and first ingestion
+# - Source: asambleanacional.gob.ec (Asamblea Nacional del Ecuador)
+# - 301 laws, 10,361 provisions, 50 definitions
+# - PDF downloads with pdftotext extraction
+# - Spanish-language articles in "Artículo N.-" format

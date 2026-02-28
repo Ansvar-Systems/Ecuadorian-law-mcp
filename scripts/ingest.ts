@@ -3,29 +3,34 @@
  * Ecuador Law MCP -- Census-Driven Ingestion Pipeline
  *
  * Reads data/census.json and fetches + parses every ingestable Act
- * from registroficial.gob.ec (Akoma Ntoso HTML).
+ * from asambleanacional.gob.ec (PDF downloads).
+ *
+ * Pipeline per law:
+ *   1. Download PDF from Asamblea Nacional
+ *   2. Extract text using pdftotext (poppler-utils)
+ *   3. Parse articles, definitions, chapter structure
+ *   4. Write seed JSON for build-db.ts
  *
  * Features:
  *   - Resume support: skips Acts that already have a seed JSON file
  *   - Census update: writes provision counts + ingestion dates back to census.json
- *   - Rate limiting: 500ms minimum between requests (via fetcher.ts)
+ *   - Rate limiting: 500ms minimum between requests
  *
  * Usage:
  *   npm run ingest                    # Full census-driven ingestion
  *   npm run ingest -- --limit 5       # Test with 5 acts
- *   npm run ingest -- --skip-fetch    # Reuse cached HTML (re-parse only)
+ *   npm run ingest -- --skip-fetch    # Reuse cached PDFs (re-parse only)
  *   npm run ingest -- --force         # Re-ingest even if seed exists
  *
- * Data source: registroficial.gob.ec (National Council for Law Reporting)
- * Format: AKN (Akoma Ntoso) structured HTML
+ * Data source: asambleanacional.gob.ec (Asamblea Nacional del Ecuador)
+ * Format: PDF (text extracted via pdftotext)
  * License: Government Open Data
  */
 
 import * as fs from 'fs';
 import * as path from 'path';
 import { fileURLToPath } from 'url';
-import { fetchWithRateLimit } from './lib/fetcher.js';
-import { parseEcuadorLawHtml, type ActIndexEntry, type ParsedAct } from './lib/parser.js';
+import { parseEcuadorLawPdf, type ActIndexEntry, type ParsedAct } from './lib/parser.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -33,6 +38,9 @@ const __dirname = path.dirname(__filename);
 const SOURCE_DIR = path.resolve(__dirname, '../data/source');
 const SEED_DIR = path.resolve(__dirname, '../data/seed');
 const CENSUS_PATH = path.resolve(__dirname, '../data/census.json');
+
+const USER_AGENT = 'ecuadorian-law-mcp/1.0 (https://github.com/Ansvar-Systems/ecuadorian-law-mcp; hello@ansvar.ai)';
+const MIN_DELAY_MS = 500;
 
 /* ---------- Types ---------- */
 
@@ -47,6 +55,8 @@ interface CensusLawEntry {
   ingested: boolean;
   provision_count: number;
   ingestion_date: string | null;
+  issued_date?: string;
+  registro_oficial?: string;
 }
 
 interface CensusFile {
@@ -90,26 +100,49 @@ function parseArgs(): { limit: number | null; skipFetch: boolean; force: boolean
 
 /**
  * Convert a census entry to an ActIndexEntry for the parser.
- * Extracts AKN year/number from the identifier field.
  */
 function censusToActEntry(law: CensusLawEntry): ActIndexEntry {
-  // identifier format: "act/YEAR/NUMBER"
-  const parts = law.identifier.split('/');
-  const aknYear = parts[1] ?? '';
-  const aknNumber = parts[2] ?? '';
+  const shortName = law.identifier || (law.title.length > 30 ? law.title.substring(0, 27) + '...' : law.title);
 
   return {
     id: law.id,
     title: law.title,
-    titleEn: law.title,
-    shortName: law.title.length > 30 ? law.title.substring(0, 27) + '...' : law.title,
+    titleEn: law.title, // No translation
+    shortName,
     status: law.status === 'in_force' ? 'in_force' : law.status === 'amended' ? 'amended' : 'repealed',
-    issuedDate: '',
-    inForceDate: '',
+    issuedDate: law.issued_date ?? '',
+    inForceDate: law.issued_date ?? '',
     url: law.url,
-    aknYear,
-    aknNumber,
   };
+}
+
+/**
+ * Download a PDF file with rate limiting.
+ */
+async function downloadPdf(url: string, outputPath: string): Promise<boolean> {
+  await new Promise(resolve => setTimeout(resolve, MIN_DELAY_MS));
+
+  try {
+    const response = await fetch(url, {
+      headers: {
+        'User-Agent': USER_AGENT,
+        'Accept': 'application/pdf, */*',
+      },
+      redirect: 'follow',
+    });
+
+    if (response.status !== 200) {
+      console.log(` HTTP ${response.status}`);
+      return false;
+    }
+
+    const buffer = Buffer.from(await response.arrayBuffer());
+    fs.writeFileSync(outputPath, buffer);
+    return true;
+  } catch (err) {
+    console.log(` Error: ${err instanceof Error ? err.message : String(err)}`);
+    return false;
+  }
 }
 
 /* ---------- Main ---------- */
@@ -118,10 +151,10 @@ async function main(): Promise<void> {
   const { limit, skipFetch, force } = parseArgs();
 
   console.log('Ecuador Law MCP -- Ingestion Pipeline (Census-Driven)');
-  console.log('====================================================\n');
-  console.log(`  Source: registroficial.gob.ec (National Council for Law Reporting)`);
-  console.log(`  Format: AKN (Akoma Ntoso) structured HTML`);
-  console.log(`  License: Government Open Data`);
+  console.log('=====================================================\n');
+  console.log('  Source: asambleanacional.gob.ec (Asamblea Nacional del Ecuador)');
+  console.log('  Format: PDF (text extracted via pdftotext)');
+  console.log('  License: Government Open Data');
 
   if (limit) console.log(`  --limit ${limit}`);
   if (skipFetch) console.log(`  --skip-fetch`);
@@ -162,7 +195,7 @@ async function main(): Promise<void> {
 
   for (const law of acts) {
     const act = censusToActEntry(law);
-    const sourceFile = path.join(SOURCE_DIR, `${act.id}.html`);
+    const sourceFile = path.join(SOURCE_DIR, `${act.id}.pdf`);
     const seedFile = path.join(SEED_DIR, `${act.id}.json`);
 
     // Resume support: skip if seed already exists (unless --force)
@@ -192,42 +225,42 @@ async function main(): Promise<void> {
     }
 
     try {
-      let html: string;
-
-      if (fs.existsSync(sourceFile) && skipFetch) {
-        html = fs.readFileSync(sourceFile, 'utf-8');
-        console.log(`  [${processed + 1}/${acts.length}] Using cached ${act.id} (${(html.length / 1024).toFixed(0)} KB)`);
-      } else {
-        process.stdout.write(`  [${processed + 1}/${acts.length}] Fetching ${act.id}...`);
-        const result = await fetchWithRateLimit(act.url);
-
-        if (result.status !== 200) {
-          console.log(` HTTP ${result.status}`);
-
-          // Mark as inaccessible in census
-          const entry = censusMap.get(law.id);
-          if (entry) {
-            entry.classification = 'inaccessible';
-          }
-
-          results.push({ act: act.shortName, provisions: 0, definitions: 0, status: `HTTP ${result.status}` });
+      // Step 1: Download PDF (or use cached)
+      if (!fs.existsSync(sourceFile) || force) {
+        if (skipFetch) {
+          console.log(`  [${processed + 1}/${acts.length}] No cached PDF for ${act.id}, skipping`);
+          results.push({ act: act.shortName, provisions: 0, definitions: 0, status: 'no-cache' });
           failed++;
           processed++;
           continue;
         }
 
-        html = result.body;
-        fs.writeFileSync(sourceFile, html);
-        console.log(` OK (${(html.length / 1024).toFixed(0)} KB)`);
+        process.stdout.write(`  [${processed + 1}/${acts.length}] Downloading ${act.id}...`);
+        const ok = await downloadPdf(act.url, sourceFile);
+        if (!ok) {
+          const entry = censusMap.get(law.id);
+          if (entry) entry.classification = 'inaccessible';
+          results.push({ act: act.shortName, provisions: 0, definitions: 0, status: 'download-failed' });
+          failed++;
+          processed++;
+          continue;
+        }
+
+        const size = fs.statSync(sourceFile).size;
+        console.log(` OK (${(size / 1024).toFixed(0)} KB)`);
+      } else {
+        const size = fs.statSync(sourceFile).size;
+        console.log(`  [${processed + 1}/${acts.length}] Using cached ${act.id} (${(size / 1024).toFixed(0)} KB)`);
       }
 
-      const parsed = parseEcuadorLawHtml(html, act);
+      // Step 2: Parse PDF (extract text + parse articles)
+      const parsed = parseEcuadorLawPdf(sourceFile, act);
       fs.writeFileSync(seedFile, JSON.stringify(parsed, null, 2));
       totalProvisions += parsed.provisions.length;
       totalDefinitions += parsed.definitions.length;
       console.log(`    -> ${parsed.provisions.length} provisions, ${parsed.definitions.length} definitions`);
 
-      // Update census entry (mark ingested even if zero provisions — the act was fetched and parsed)
+      // Update census entry
       const entry = censusMap.get(law.id);
       if (entry) {
         entry.ingested = true;
@@ -265,7 +298,7 @@ async function main(): Promise<void> {
   console.log(`\n${'='.repeat(70)}`);
   console.log('Ingestion Report');
   console.log('='.repeat(70));
-  console.log(`\n  Source:      registroficial.gob.ec (Akoma Ntoso HTML)`);
+  console.log(`\n  Source:      asambleanacional.gob.ec (PDF extraction)`);
   console.log(`  Processed:   ${processed}`);
   console.log(`  New:         ${ingested}`);
   console.log(`  Resumed:     ${skipped}`);
@@ -274,7 +307,7 @@ async function main(): Promise<void> {
   console.log(`  Total definitions: ${totalDefinitions}`);
 
   // Summary of failures
-  const failures = results.filter(r => r.status.startsWith('HTTP') || r.status.startsWith('ERROR'));
+  const failures = results.filter(r => r.status.startsWith('download') || r.status.startsWith('ERROR') || r.status === 'no-cache');
   if (failures.length > 0) {
     console.log(`\n  Failed acts:`);
     for (const f of failures) {
@@ -283,7 +316,7 @@ async function main(): Promise<void> {
   }
 
   // Zero-provision acts
-  const zeroProv = results.filter(r => r.provisions === 0 && !r.status.startsWith('HTTP') && !r.status.startsWith('ERROR'));
+  const zeroProv = results.filter(r => r.provisions === 0 && r.status === 'OK');
   if (zeroProv.length > 0) {
     console.log(`\n  Zero-provision acts (${zeroProv.length}):`);
     for (const z of zeroProv.slice(0, 20)) {
@@ -298,19 +331,14 @@ async function main(): Promise<void> {
 }
 
 function writeCensus(census: CensusFile, censusMap: Map<string, CensusLawEntry>): void {
-  // Update the laws array from the map
   census.laws = Array.from(censusMap.values()).sort((a, b) =>
     a.title.localeCompare(b.title),
   );
 
-  // Recalculate summary
   census.summary.total_laws = census.laws.length;
   census.summary.ingestable = census.laws.filter(l => l.classification === 'ingestable').length;
   census.summary.inaccessible = census.laws.filter(l => l.classification === 'inaccessible').length;
   census.summary.excluded = census.laws.filter(l => l.classification === 'excluded').length;
-
-  // Also compute total_provisions for the top-level census.json
-  const totalProvisions = census.laws.reduce((sum, l) => sum + (l.provision_count ?? 0), 0);
 
   fs.writeFileSync(CENSUS_PATH, JSON.stringify(census, null, 2));
 }

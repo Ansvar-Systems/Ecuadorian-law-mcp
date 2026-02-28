@@ -2,6 +2,116 @@
   "$schema": "./golden-tests.schema.json",
   "version": "1.0",
   "mcp_name": "Ecuador Law MCP",
-  "description": "Golden contract tests for the Ecuador Law MCP -- add tests after first ingestion",
-  "tests": []
+  "description": "Golden contract tests for the Ecuador Law MCP -- 300 laws, 10,361 provisions from asambleanacional.gob.ec",
+  "tests": [
+    {
+      "id": "EC-001",
+      "category": "search",
+      "description": "Search for 'constitución' returns results",
+      "tool": "search_legislation",
+      "input": {
+        "query": "constitución",
+        "limit": 5
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "min_results": 1,
+        "text_not_empty": true
+      }
+    },
+    {
+      "id": "EC-002",
+      "category": "provision",
+      "description": "Get provision art2 from COIP",
+      "tool": "get_provision",
+      "input": {
+        "document_id": "ec-ley-codigo-organico-integral-penal-225",
+        "provision_ref": "art2"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "text_contains": ["penal", "principios"],
+        "text_not_empty": true
+      }
+    },
+    {
+      "id": "EC-003",
+      "category": "search",
+      "description": "Search for 'datos personales' returns relevant provisions",
+      "tool": "search_legislation",
+      "input": {
+        "query": "datos personales",
+        "limit": 10
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "min_results": 1
+      }
+    },
+    {
+      "id": "EC-004",
+      "category": "currency",
+      "description": "Check currency of Código Orgánico Integral Penal",
+      "tool": "check_currency",
+      "input": {
+        "document_id": "ec-ley-codigo-organico-integral-penal-225"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "text_contains": ["in_force"],
+        "text_not_empty": true
+      }
+    },
+    {
+      "id": "EC-005",
+      "category": "stance",
+      "description": "Build legal stance on 'protección de datos'",
+      "tool": "build_legal_stance",
+      "input": {
+        "query": "protección de datos",
+        "limit": 5
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "text_not_empty": true
+      }
+    },
+    {
+      "id": "EC-006",
+      "category": "sources",
+      "description": "List sources returns metadata",
+      "tool": "list_sources",
+      "input": {},
+      "assertions": {
+        "result_not_empty": true,
+        "text_contains": ["ecuador"],
+        "text_not_empty": true
+      }
+    },
+    {
+      "id": "EC-007",
+      "category": "validation",
+      "description": "Validate citation for COIP",
+      "tool": "validate_citation",
+      "input": {
+        "citation": "Artículo 2, Código Orgánico Integral Penal"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "text_not_empty": true
+      }
+    },
+    {
+      "id": "EC-008",
+      "category": "edge_case",
+      "description": "Handle nonexistent document gracefully",
+      "tool": "get_provision",
+      "input": {
+        "document_id": "nonexistent-doc-12345"
+      },
+      "assertions": {
+        "handles_gracefully": true
+      }
+    }
+  ]
 }

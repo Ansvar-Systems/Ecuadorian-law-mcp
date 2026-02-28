@@ -1,0 +1,655 @@
+{
+  "id": "ec-ley-ley-organica-para-la-transformacion-digi-65",
+  "type": "statute",
+  "title": "Ley Orgánica para la Transformación Digital y Audiovisual.",
+  "title_en": "Ley Orgánica para la Transformación Digital y Audiovisual.",
+  "short_name": "Ley 45",
+  "status": "in_force",
+  "issued_date": "2023-02-07",
+  "in_force_date": "2023-02-07",
+  "url": "https://www.asambleanacional.gob.ec/es/system/files/ro-245-3er-supl-07-02-2023.pdf",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "Ley Orgánica para la Transformación Digital y Audiovisual.",
+      "title": "Objetivos. La presente Ley tiene por objetivos generales:",
+      "content": "Artículo 1.- Objetivos. La presente Ley tiene por objetivos generales:\na. Promover la creación de oportunidades mediante la atracción y fomento\nde inversiones de la economía digital global;\nb. Incentivar la creación de empleos de calidad;\nc. Promover la eficiencia en los mercados, la construcción y la mejora\nregulatoria; y,\nd. La simplificación y la adopción de medios y tecnologías digitales en la\nprestación de servicios públicos y gestión de todo tipo de trámites\nadministrativos (ante cualquier nivel del gobierno), judiciales o privados;\nimpulsando el uso y apropiación de las mismas en los sectores\nproductivos, academia y sociedad, fortaleciendo la innovación, desarrollo\ne investigación para dicha adopción y enfocada en potenciar el desarrollo\nde la economía digital en el país.\nSon objetivos específicos de esta Ley:\na. Promover la inversión e innovación mediante la modernización,\nactualización y simplificación de trámites, proceso y trabas regulatorias;\nb. Establecer el marco regulatorio para el fomento de la transformación\ndigital de las instituciones públicas, de las empresas privadas y de la\nsociedad; así como fortalecer el uso efectivo y eficiente de las plataformas,\nlas tecnologías digitales, las redes y servicios digitales con el fin de atraer\ninversiones, impulsar la economía digital, la eficiencia y el bienestar\nsocial, desarrollando habilidades y competencias digitales necesarias\npara el empleo, educación, salud y productividad;\nc. Fortalecer el ciberespacio ecuatoriano procurando garantizar la\nseguridad de la información personal de los ciudadanos; e,\nd. Incentivar el uso y la optimización de los recursos necesarios para lograr\nla transformación digital."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "Ley Orgánica para la Transformación Digital y Audiovisual.",
+      "title": "Ejes de la Ley. Son ejes de la presente Ley los siguientes:",
+      "content": "Artículo 2.- Ejes de la Ley. Son ejes de la presente Ley los siguientes:\na. Infraestructura digital: Conectividad y Servicios de Telecomunicaciones,\nSistemas de Información;\nb. Cultura e Inclusión Digital: Educación Digital, Salud Digital, Cultura\nDigital;\nc. Economía Digital: Transformación Digital de estructura productiva,\nComercio Electrónico;\nd. Tecnologías emergentes para el desarrollo sostenible: Fomento de nuevas\nPágina 4 de 37\n7\nMartes 7 de febrero de 2023                       Tercer Suplemento Nº 245 - Registro Oficial\ntecnologías en las industrias, Fomento de nuevas tecnologías para el\nmedio ambiente, Ciudades Inteligentes y Sostenibles;\ne.   Gobierno Digital: Simplificación de trámites, Participación ciudadana por\nmedios electrónicos, Gobierno de TICs, Identidad Digital;\nf.   Interoperabilidad y tratamiento de datos: Servicios de Interoperabilidad,\nDatos personales, Datos abiertos; y,\ng.   Seguridad Digital y confianza: Seguridad de la información.\nLIBRO I\nDE LA TRANSFORMACIÓN DIGITAL\nTÍTULO I\nLA RECTORÍA EN TRANSFORMACIÓN DIGITAL"
+    },
+    {
+      "provision_ref": "art3",
+      "chapter": "TÍTULO I",
+      "section": "TÍTULO I",
+      "title": "Rectoría. El ente rector en materia de telecomunicaciones será la",
+      "content": "Artículo 3.- Rectoría. El ente rector en materia de telecomunicaciones será la\nentidad rectora en transformación digital y gobierno digital, para lo cual ejercerá\natribuciones y responsabilidades, así como emitirá las políticas, directrices,\nacuerdos, normativa y lineamientos necesarios para su implementación.\nCon la finalidad de facilitar la realización de actividades conjuntas e intercambio\nde información entre los distintos niveles de gobierno y las diferentes\nInstituciones Públicas que cuenten con plataformas tecnológicas, éstas deberán\npermitir y participar en la interoperabilidad con otros sistemas informáticos del\nEstado, conforme las directrices y metodologías que determine el ente rector.\nEl ente rector podrá conformar comités temporales, temáticos o sectoriales,\npara identificar las necesidades y formular las soluciones de transformación,\ncon alineación al Plan Nacional de Desarrollo. Esto se realizará en coordinación\ncon la Agencia de Regulación y Control de las Telecomunicaciones (ARCOTEL),\nInstituciones Públicas, entidades privadas, todos los niveles de gobierno y\nsociedad civil."
+    },
+    {
+      "provision_ref": "art4",
+      "chapter": "TÍTULO I",
+      "section": "TÍTULO I",
+      "title": "De la transformación digital. La Transformación Digital",
+      "content": "Artículo 4.- De la transformación digital. La Transformación Digital\nconstituye el proceso continuo de adopción multimodal de tecnologías\ndigitales que cambian fundamentalmente la forma en que los servicios\ngubernamentales y del sector privado se idean, planifican, diseñan,\nimplementan y operan, con el objeto de mejorar la eficiencia, seguridad, certeza,\nvelocidad y calidad de los servicios, optimizando sus costos y mejorando las\ncondiciones de transparencia de los procesos y actuaciones del Estado en su\ninterrelación con los ciudadanos."
+    },
+    {
+      "provision_ref": "art5",
+      "chapter": "TÍTULO I",
+      "section": "TÍTULO I",
+      "title": "Definiciones. Para efectos de la aplicación de la presente Ley, se",
+      "content": "Artículo 5.- Definiciones. Para efectos de la aplicación de la presente Ley, se\ntendrán en cuenta las siguientes definiciones:\nPágina 5 de 37\n8\nRegistro Oficial - Tercer Suplemento Nº 245                     Martes 7 de febrero de 2023\na.   Tecnologías Digitales.- Se refieren a las Tecnologías de la Información y\nla Comunicación - TIC, incluidos Internet, las tecnologías y dispositivos\nmóviles, así como la analítica de datos utilizados para mejorar la\ngeneración, recopilación, intercambio, agregación, combinación, análisis,\nacceso, búsqueda y presentación de contenido digital, incluido el\ndesarrollo de servicios y aplicaciones aplicables a la materia de\ngobierno digital.\nb. Entorno Digital.- Es el dominio o ámbito habilitado por las tecnologías\ny dispositivos digitales, generalmente interconectados a través de redes\nde datos o comunicación, incluyendo el Internet, que soportan los\nprocesos, servicios, infraestructuras y la interacción entre personas.\nc.   Servicio Digital.- Es aquel provisto de forma total o parcial a través de\nInternet u otra red equivalente, que se caracteriza por ser automático, no\npresencial y utilizar de manera intensiva las tecnologías digitales, para la\nproducción y acceso a datos y contenidos que generen valor público para\nlos ciudadanos y personas en general.\nd. Gobernanza Digital.- Es el conjunto de procesos, estructuras,\nherramientas y normas que nos permiten dirigir, evaluar y supervisar el\nuso y adopción de las tecnologías digitales en la organización.\ne.   Arquitectura Digital.- Es el conjunto de componentes, lineamientos y\nestándares, que desde una perspectiva integral de la organización\npermiten alinear los sistemas de información, datos, seguridad e\ninfraestructura tecnológica con la misión y objetivos estratégicos de la\nentidad, de tal manera que se promuevan la colaboración,\ninteroperabilidad, escalabilidad, seguridad y el uso optimizado de las\ntecnologías digitales en un entorno de gobierno digital.\nf.   De la Identidad Digital.- La identidad digital es aquel conjunto de\natributos que individualiza y permite identificar a una persona en\nentornos digitales. Los atributos de la identidad digital son otorgados\npor distintas entidades de la Administración Pública que, en su\nconjunto, caracterizan al individuo."
+    },
+    {
+      "provision_ref": "art6",
+      "chapter": "TÍTULO I",
+      "section": "TÍTULO I",
+      "title": "Del Gobierno Digital. Es el uso estratégico de tecnologías digitales",
+      "content": "Artículo 6.- Del Gobierno Digital. Es el uso estratégico de tecnologías digitales\ny datos en la Administración Pública, como parte integral de las estrategias de\nmodernización de los gobiernos para crear valor público.\nEl ecosistema de gobierno digital se encuentra compuesto por actores del sector\npúblico, sector privado, todos los niveles de gobierno y sociedad civil en general,\nquienes apoyan en la implementación de iniciativas y creación de servicios\ndigitales.\nPágina 6 de 37\n9\nMartes 7 de febrero de 2023                      Tercer Suplemento Nº 245 - Registro Oficial\nEl Gobierno Digital se fundamenta en los pilares de la gobernanza de datos,\ninteroperabilidad y seguridad digital.\nLa Administración Pública del Estado ecuatoriano estará determinada por una\nreal y eficiente gobernanza digital entendiéndose por aquélla al conjunto de\nprocesos, estructuras, herramientas y normas que permiten dirigir, evaluar y\nsupervisar el uso y adopción de las tecnologías digitales en la institucionalidad."
+    },
+    {
+      "provision_ref": "art7",
+      "chapter": "TÍTULO I",
+      "section": "TÍTULO I",
+      "title": "Atribuciones del ente rector de transformación digital. El ente",
+      "content": "Artículo 7.- Atribuciones del ente rector de transformación digital. El ente\nrector de la transformación digital tendrá las siguientes atribuciones:\na. Solicitar al Ministerio encargado de las Finanzas Públicas la asignación\ndel presupuesto suficiente y necesario para la efectiva implementación y\naplicación de la presente Ley.\nb. Emitir políticas públicas, lineamientos, metodologías, regulaciones para\nla transformación digital, gobierno digital y evaluar su cumplimiento por\nparte de las entidades del sector público.\nc. Coordinar la elaboración periódica de la “Agenda Digital Integral del\nEcuador” orientada a los diversos sectores del país y a todos los niveles\nde gobierno y controlar su ejecución.\nd. Promover el uso y la apropiación de las tecnologías digitales y de la\ninformación y comunicación en las actividades de las empresas, de la\nsociedad civil y de la academia para alcanzar los objetivos del país en la\nadopción de la transformación digital en sus procesos.\ne. Aprobar los planes que, en función de lo dispuesto por el Reglamento a\nesta Ley, deban presentar los sujetos sometidos a su ámbito de\naplicación, asociados a la “Agenda Digital Integral del Ecuador”.\nf. Dar seguimiento al cumplimiento de las metas planteadas en la Agenda\nDigital Integral del Ecuador.\ng. Proponer y promover reformas a cuerpos normativos a fin de impulsar la\ntransformación digital.\nh. Estructurar programas de capacitación para todos los servidores del\nsector público, los actores del sector privado, así como la ciudadanía\nen general, con el fin de mejorar sus habilidades digitales.\ni. Establecer, disponer y evaluar el cumplimiento de planes de\ndigitalización y automatización de trámites y procesos administrativos\nde las entidades del sector público.\nj. Identificar, disponer y evaluar los trámites, servicios y procesos\nadministrativos de las entidades del sector público que obligatoriamente\ndeberán ser digitalizados y automatizados.\nk. Brindar apoyo técnico a las entidades públicas en la gestión e\nimplementación de tecnologías digitales.\nl. Promover mecanismos que aseguren la identidad digital como pilar\nfundamental para la inclusión digital y la ciudadanía digital.\nPágina 7 de 37\n10\nRegistro Oficial - Tercer Suplemento Nº 245                    Martes 7 de febrero de 2023\nm. Promover la colaboración entre las entidades de la Administración\nPública, así como la participación de ciudadanos y otros interesados para\nel desarrollo del gobierno digital y sociedad del conocimiento.\nn. Emitir opinión previa a fin de validar técnicamente proyectos de\ntecnologías     digitales de carácter transversal en materia de\ninteroperabilidad,     seguridad    digital,  identidad   digital, datos,\narquitectura digital o aquellos destinados a mejorar la prestación de\nservicios digitales.\no. Emitir las directrices y establecer los parámetros en materia de la\nseguridad de la información y ciberseguridad, que las entidades deberán\nobservar en el establecimiento y ejecución de sus planes de\ntransformación digital y monitorearlos a través del Centro de Respuestas\no Incidentes de seguridad Informática, que será puesto en marcha y\noperado por el ente rector de la transformación digital."
+    },
+    {
+      "provision_ref": "art8",
+      "chapter": "TÍTULO I",
+      "section": "TÍTULO I",
+      "title": "Ambiente de pruebas regulatorio (Sandbox). Es un mecanismo",
+      "content": "Artículo 8.- Ambiente de pruebas regulatorio (Sandbox). Es un mecanismo\nregulatorio provisional y de prueba, que no exime de las responsabilidades\nlegales de quien accede al mecanismo provisional, que permita probar\nproductos, servicios, soluciones, implementación de tecnologías emergentes\ninclusive con espectro licenciado o no licenciado, nuevos marcos regulatorios,\npruebas de competencia en el mercado, comportamientos del mercado ante la\ndesregulación, nuevos modelos de negocios, entre otros, bajo un conjunto de\nexenciones técnicas, económicas, tributarias y regulatorias por un periodo de\ntiempo no superior a los 24 meses.\nCon el fin de promover y atraer la inversión; así como mejorar la productividad\nen el país, el Ministerio rector de Industrias y Productividad emitirá\nlineamientos generales conforme las mejores prácticas internacionales dadas\npor organismos internacionales para esta figura, con el fin de que las\nautoridades competentes de regulación de cada sector emitan un marco\nregulatorio flexible, que determine dichas exenciones.\nEl Reglamento establecerá normas que regulen: los principios que rigen esta\ninstitución; requerimientos generales para la implementación y las medidas de\nprotección al consumidor, el régimen de entrada y salida, parámetros para\ndelimitar el alcance del marco regulatorio flexible y exenciones, parámetros para\nel otorgamiento y revocatoria de la autorización temporal de operación del\nproducto o servicio en prueba, y, medidas mínimas que deberá tener en cuenta\nla autoridad sectorial competente al constituir el ambiente regulatorio de\npruebas."
+    },
+    {
+      "provision_ref": "art9",
+      "chapter": "TÍTULO I",
+      "section": "TÍTULO I",
+      "title": "Destino de residuos digitales. Con la finalidad de realizar un",
+      "content": "Artículo 9.- Destino de residuos digitales. Con la finalidad de realizar un\nmanejo ecológicamente responsable, el ente rector deberá desarrollar la\nreglamentación adecuada para establecer que la importación sea de tecnología\nnueva y que el destino de los desechos tecnológicos que han cumplido su vida\nPágina 8 de 37\n11\nMartes 7 de febrero de 2023                      Tercer Suplemento Nº 245 - Registro Oficial\nútil tenga un manejo adecuado que procure que nuestro país no se convierta en\nun botadero de este tipo de desechos.\nTÍTULO II\nDE LA IDENTIDAD DIGITAL"
+    },
+    {
+      "provision_ref": "art10",
+      "chapter": "TÍTULO II",
+      "section": "TÍTULO II",
+      "title": "Marco de Identidad Digital. El Marco de Identidad Digital está",
+      "content": "Artículo 10.- Marco de Identidad Digital. El Marco de Identidad Digital está\nconstituido por lineamientos, especificaciones, guías, directivas, estándares e\ninfraestructura de tecnologías digitales, que permiten de manera efectiva la\nidentificación y autenticación de los ciudadanos y personas en general cuando\nacceden a los servicios digitales."
+    },
+    {
+      "provision_ref": "art11",
+      "chapter": "TÍTULO II",
+      "section": "TÍTULO II",
+      "title": "Credencial de Identidad Digital. Es la representación de una",
+      "content": "Artículo 11.- Credencial de Identidad Digital. Es la representación de una\nidentidad digital que comprende los atributos inherentes a la persona definidos\nen el Marco de Identidad Digital, a fin de facilitar la autenticación digital."
+    },
+    {
+      "provision_ref": "art12",
+      "chapter": "TÍTULO II",
+      "section": "TÍTULO II",
+      "title": "Identificación Digital. La identificación digital es el",
+      "content": "Artículo 12.- Identificación Digital. La identificación digital es el\nprocedimiento de reconocimiento de una persona como distinta de otras en el\nentorno digital. Las entidades de la Administración Pública deben establecer los\nprocedimientos para identificar a las personas que accedan a los servicios\ndigitales."
+    },
+    {
+      "provision_ref": "art13",
+      "chapter": "TÍTULO II",
+      "section": "TÍTULO II",
+      "title": "Autenticación Digital. La autenticación digital es el",
+      "content": "Artículo 13.- Autenticación Digital. La autenticación digital es el\nprocedimiento de verificación de la identidad digital de una persona, mediante\nel cual se puede afirmar que es quien dice ser. Para el acceso a un servicio\ndigital las entidades de la Administración Pública deben adoptar los\nmecanismos o procedimientos de autenticación digital, considerando los niveles\nde seguridad a establecerse en la norma reglamentaria."
+    },
+    {
+      "provision_ref": "art14",
+      "chapter": "TÍTULO II",
+      "section": "TÍTULO II",
+      "title": "Inclusión digital. La inclusión digital es el acceso y uso de los",
+      "content": "Artículo 14.- Inclusión digital. La inclusión digital es el acceso y uso de los\nservicios digitales por parte de los ciudadanos a través de su identidad digital,\npromoviendo la ciudadanía digital. Para tal fin las entidades de la\nAdministración Pública adoptan las disposiciones que emite el ente rector para\nla prestación de dichos servicios.\nTÍTULO III\nDE LA PRESTACIÓN DE SERVICIOS DIGITALES"
+    },
+    {
+      "provision_ref": "art15",
+      "chapter": "TÍTULO III",
+      "section": "TÍTULO III",
+      "title": "Garantías para la prestación de servicios digitales. Las",
+      "content": "Artículo 15.- Garantías para la prestación de servicios digitales. Las\nentidades de la Administración Pública, de manera progresiva y cuando\ncorresponda, deben garantizar a las personas el establecimiento y la prestación\nde los servicios digitales, comprendidos en el ámbito de aplicación de la presente\nLey, debiendo para tal efecto:\n1. Reconocer y aceptar el uso de la identidad digital de todas las personas\nPágina 9 de 37\n12\nRegistro Oficial - Tercer Suplemento Nº 245                     Martes 7 de febrero de 2023\nsegún lo regulado en la presente Ley.\n2. Garantizar la disponibilidad, integridad y confidencialidad de la\ninformación de los servicios digitales con la aplicación de los controles de\nseguridad que correspondan en la prestación de dichos servicios\nconforme a las disposiciones contenidas en la presente Ley y en la\nnormatividad vigente sobre la materia.\n3. Capacitar en temas en materia de firmas electrónicas, firmas y\ncertificados digitales, protección de datos personales, interoperabilidad,\narquitectura digital, seguridad digital, datos abiertos y gobierno digital.\n4. Facilitar el acceso a la información requerida por otra entidad de la\nAdministración Pública, sobre los datos de las personas que se\nencuentren en soporte electrónico, únicamente para el ejercicio de sus\nfunciones en el ámbito de sus competencias. Queda excluida del\nintercambio la información que pueda afectar la seguridad nacional, la\ninformación personal o la prohibida por la Ley de Transparencia y Acceso\na la Información Pública.\n5. Implementar servicios digitales haciendo un análisis de la arquitectura\ndigital y rediseño funcional.\n6. Facilitar a las personas información detallada, concisa y entendible sobre\nlas condiciones de tratamiento de sus datos personales.\n7. Garantizar la conservación de las comunicaciones y documentos\ngenerados a través de canales digitales en las mismas o mejores\ncondiciones que aquellas utilizadas por los medios tradicionales.\n8. Garantizar que en el diseño y configuración de los servicios digitales se\nadoptan las medidas técnicas, organizativas y legales para la debida\nprotección de datos personales y la confidencialidad de las\ncomunicaciones."
+    },
+    {
+      "provision_ref": "art16",
+      "chapter": "TÍTULO III",
+      "section": "TÍTULO III",
+      "title": "Domicilio Digital. Es uno de los atributos de la identidad digital",
+      "content": "Artículo 16.- Domicilio Digital. Es uno de los atributos de la identidad digital\nque se constituye en el domicilio habitual de un ciudadano en el entorno\ndigital, el cual es utilizado por las entidades de la Administración Pública para\nefectuar comunicaciones o notificaciones.\nTÍTULO IV\nDE LA SEGURIDAD DIGITAL"
+    },
+    {
+      "provision_ref": "art17",
+      "chapter": "TÍTULO IV",
+      "section": "TÍTULO IV",
+      "title": "De la Seguridad Digital. La seguridad digital es el estado de",
+      "content": "Artículo 17.- De la Seguridad Digital. La seguridad digital es el estado de\nconfianza en el entorno digital que resulta de la gestión y aplicación de un\nconjunto de medidas proactivas y reactivas frente a los riesgos que afectan la\nseguridad de las personas, la prosperidad económica y social, la seguridad\nnacional y los objetivos nacionales en dicho entorno. Se sustenta en la\narticulación con actores del sector público, sector privado y otros quienes\napoyan en la implementación de controles, acciones y medidas.\nPágina 10 de 37\n13\nMartes 7 de febrero de 2023                     Tercer Suplemento Nº 245 - Registro Oficial"
+    },
+    {
+      "provision_ref": "art18",
+      "chapter": "TÍTULO IV",
+      "section": "TÍTULO IV",
+      "title": "Marco de Seguridad Digital. El Marco de Seguridad Digital se",
+      "content": "Artículo 18.- Marco de Seguridad Digital. El Marco de Seguridad Digital se\nconstituyen en el conjunto de principios, modelos, políticas, normas, procesos,\nroles, tecnología y estándares mínimos que permitan preservar la\nconfidencialidad, integridad, disponibilidad de la información en el entorno\ndigital administrado por las entidades de la Administración Pública."
+    },
+    {
+      "provision_ref": "art19",
+      "chapter": "TÍTULO IV",
+      "section": "TÍTULO IV",
+      "title": "Gestión del Marco de Seguridad Digital. El Marco de Seguridad",
+      "content": "Artículo 19.- Gestión del Marco de Seguridad Digital. El Marco de Seguridad\nDigital del Estado se tienen que observar y cumplir con lo siguiente:\na. Defensa: El Ministerio de Defensa en el marco de sus funciones y\ncompetencias dirige, supervisa y evalúa las normas en materia de\nciberdefensa.\nb. Inteligencia: El Centro de Inteligencia Estratégica o la entidad que haga\nsus veces, como autoridad técnica normativa en el marco de sus\nfunciones emite, supervisa y evalúa las normas en materia de\ninteligencia, contrainteligencia y seguridad digital en el ámbito de esta\ncompetencia.\nc. Justicia: El Ministerio de la Mujer y Derechos Humanos, el Ministerio del\nInterior, la Policía Nacional, la Fiscalía General del Estado y la Corte\nNacional de Justicia, en el marco de sus funciones y competencias\ndirigen, supervisan y evalúan las normas en materia de\nciberdelincuencia.\nd. Institucional: Las entidades de la Administración Pública deberán\nestablecer, mantener y documentar un Sistema de Gestión de la\nSeguridad de la Información."
+    },
+    {
+      "provision_ref": "art20",
+      "chapter": "TÍTULO IV",
+      "section": "TÍTULO IV",
+      "title": "Articulación de la Seguridad Digital con la Seguridad de la",
+      "content": "Artículo 20.- Articulación de la Seguridad Digital con la Seguridad de la\nInformación. El Marco de Seguridad Digital se articula y sustenta en las\nnormas, procesos, roles, responsabilidades y mecanismos regulados e\nimplementados a nivel nacional en materia de Seguridad de la Información. La\nSeguridad de la Información se enfoca en la información, de manera\nindependiente de su formato y soporte. La seguridad digital se ocupa de las\nmedidas de la seguridad de la información procesada, transmitida, almacenada\no contenida en el entorno digital, procurando generar confianza, gestionando\nlos riesgos que afecten la seguridad de las personas y la prosperidad económica\ny social en dicho entorno.\nTÍTULO V\nCONSOLIDACIÓN DE LA TRANSFORMACIÓN\nDIGITAL Y AUDIOVISUAL"
+    },
+    {
+      "provision_ref": "art21",
+      "chapter": "TÍTULO V",
+      "section": "TÍTULO V",
+      "title": "Publicidad y transparencia de la administración pública. Los",
+      "content": "Artículo 21.- Publicidad y transparencia de la administración pública. Los\ndiferentes órganos de la Asamblea Nacional, el pleno del Consejo de la\nJudicatura, el pleno de la Corte Nacional de Justicia, el pleno de la Corte\nConstitucional, el pleno del Consejo de Participación Ciudadana y Control\nPágina 11 de 37\n14\nRegistro Oficial - Tercer Suplemento Nº 245                     Martes 7 de febrero de 2023\nSocial, el pleno de la Función de Transparencia y Control Social, el pleno del\nConsejo Nacional Electoral y el pleno del Tribunal Contencioso Electoral deberán\ntransmitir en vivo y en directo sus sesiones ordinarias y extraordinarias a través\nde los canales de comunicación oficiales de los nombrados organismos de la\nadministración pública.\nÚnicamente en casos excepcionales tales como motivos de seguridad nacional\no situaciones donde se vean involucrados derechos de niñas, niños y\nadolescentes, así como también controversias o negociaciones comerciales del\nEstado, el Pleno de los organismos prenombrados podrá declarar las sesiones\ncon carácter reservado, para lo cual será necesario el voto de la mayoría\ncalificada de sus integrantes.\nLa publicidad y transparencia de los organismos nombrados en el inciso\nanterior incluye la publicación de las convocatorias a sesiones ordinarias o\nextraordinarias a través de los canales de comunicación oficiales.\nEn el caso de los órganos jurisdiccionales de la Función Judicial, el Tribunal\nContencioso Electoral y la Corte Constitucional, las audiencias también deberán\nser de carácter público y al alcance de la conexión de la ciudadanía, salvo los\ncasos en donde la ley expresamente reconozca reserva. Las y los juzgadores\núnicamente deberán solicitar del público que se registren como tales al\nmomento de su conexión."
+    },
+    {
+      "provision_ref": "art22",
+      "chapter": "TÍTULO V",
+      "section": "TÍTULO V",
+      "title": "Implementación de la firma electrónica. Los diferentes",
+      "content": "Artículo 22.- Implementación de la firma electrónica. Los diferentes\norganismos de la administración pública, así como el sector privado, deberán\nimplementar y aceptar dentro de sus diferentes procesos el uso de la firma\nelectrónica por parte de los administrados.\nSerá a elección del administrado la utilización de su firma manuscrita en los\ndiferentes procesos de la administración pública o del sector privado."
+    },
+    {
+      "provision_ref": "art23",
+      "chapter": "TÍTULO V",
+      "section": "TÍTULO V",
+      "title": "De los casilleros virtuales. Los organismos del Estado bajo",
+      "content": "Artículo 23.- De los casilleros virtuales. Los organismos del Estado bajo\nningún concepto, ni aún bajo pretexto de escasez de recursos, podrán negar la\nrecepción o exigir la presentación física de los documentos que hayan sido\npresentados con firma electrónica en los casilleros o ventanillas virtuales a su\ncargo.\nTÍTULO VI\nDEL SECTOR AUDIOVISUAL"
+    },
+    {
+      "provision_ref": "art24",
+      "chapter": "TÍTULO VI",
+      "section": "TÍTULO VI",
+      "title": "De la producción audiovisual. Como parte de la transformación",
+      "content": "Artículo 24.- De la producción audiovisual. Como parte de la transformación\ndigital y fomento a la inversión y dinamización de actividades económicas, se\nestablece como sector de interés nacional a la producción audiovisual\nincluyendo el desarrollo, preproducción, producción, postproducción y\ndistribución de contenidos audiovisuales.\nPágina 12 de 37\n15\nMartes 7 de febrero de 2023                      Tercer Suplemento Nº 245 - Registro Oficial"
+    },
+    {
+      "provision_ref": "art25",
+      "chapter": "TÍTULO VI",
+      "section": "TÍTULO VI",
+      "title": "Régimen especial de exoneración. A fin de promover la",
+      "content": "Artículo 25.- Régimen especial de exoneración. A fin de promover la\ntransformación digital, la importación de bienes que se requieran para la\nproducción de obras audiovisuales que conste en el listado que apruebe el\nComité de Comercio Exterior (COMEX) a recomendación del Instituto de\nFomento a la Creatividad y la Innovación, IFCI, estará exenta de todo derecho\narancelario, impuesto, gravamen, tasa o contribución en régimen de consumo\no internación temporal. A fin de facilitar la importación, aplicará en este caso\nel procedimiento aplicable a aquellos sujetos pasivos que según su actividad\neconómica, se dediquen a la producción audiovisual."
+    },
+    {
+      "provision_ref": "art26",
+      "chapter": "TÍTULO VI",
+      "section": "TÍTULO VI",
+      "title": "Exoneración del ISD. Se exonera de Impuesto a la Salida de",
+      "content": "Artículo 26.- Exoneración del ISD. Se exonera de Impuesto a la Salida de\nDivisas los siguientes pagos al exterior que se realicen con el objeto de realizar\nproducciones audiovisuales y actividades artísticas y culturales:\na. Importación de equipos y bienes destinados a la producción, promoción\ny difusión audiovisual local y extranjera en el Ecuador.\nb. Pago de salarios, honorarios, remuneraciones o viáticos a personas\nnaturales o jurídicas que tengan residencia fiscal en el extranjero, para\nque presten sus servicios en la producción audiovisual nacional y\nextranjera en el Ecuador.\nEl reglamento determinará el mecanismo de verificación de la actividad\nproductiva conforme al presente artículo."
+    },
+    {
+      "provision_ref": "art27",
+      "chapter": "TÍTULO VI",
+      "section": "TÍTULO VI",
+      "title": "Exoneración de Impuesto a la Renta en pagos al exterior. Los",
+      "content": "Artículo 27.- Exoneración de Impuesto a la Renta en pagos al exterior. Los\npagos al exterior que se realicen a personas naturales o jurídicas con\nresidencia fiscal en el extranjero, por la prestación de servicios en la\nproducción audiovisual nacional y extranjera en Ecuador, no estarán sujetos a\nretención en la fuente del impuesto a la renta, el cual los beneficiarios de estos\npagos deberán acreditar con su respectivo certificado de su residencia fiscal, el\ncual deberá permanecer en custodia del beneficiario del servicio."
+    },
+    {
+      "provision_ref": "art28",
+      "chapter": "TÍTULO VI",
+      "section": "TÍTULO VI",
+      "title": "Exoneración del Impuesto al Valor Agregado. Los servicios",
+      "content": "Artículo 28.- Exoneración del Impuesto al Valor Agregado. Los servicios\ndigitales que paguen el Impuesto al Valor Agregado que estén avalados por el\nServicio de Rentas Internas pueden tener una exoneración de este impuesto en\nfunción de lo dispuesto por el Reglamento a esta Ley, siempre y cuando presten\nsus conocimientos, bienes o cualquier otra clase de apoyo técnico al desarrollo,\npreproducción, producción, postproducción y distribución en todas las etapas\nde su producción a los contenidos audiovisuales nacionales."
+    },
+    {
+      "provision_ref": "art29",
+      "chapter": "TÍTULO VI",
+      "section": "TÍTULO VI",
+      "title": "Certificado de Inversión Audiovisual. Se crea el Certificado de",
+      "content": "Artículo 29.- Certificado de Inversión Audiovisual. Se crea el Certificado de\nInversión Audiovisual (CIA) el cual será emitido por el SRI a favor de productoras\nnacionales y extranjeras por el 37% de los costos y gastos que incurran en el\nEcuador en servicios audiovisuales y logísticos necesarios siempre que se\nPágina 13 de 37\n16\nRegistro Oficial - Tercer Suplemento Nº 245                    Martes 7 de febrero de 2023\nencuentre soportados en comprobantes de venta válidos. El CIA es un título\nvalor y podrá ser utilizado como crédito tributario de los impuestos\nadministrados por el Servicio de Rentas Internas.\nEl ingreso por la transferencia del Certificado de Inversión Audiovisual obtenido\npor una persona natural o jurídica nacional o extranjera, no será gravable ni\nsujeto a retención en la fuente del impuesto a la renta en el Ecuador. El\nMinisterio de Economía y Finanzas imperativamente fijará en los dos últimos\nmeses de cada año, el monto máximo de Certificados de Inversión\nAudiovisual que podrá otorgarse en el año calendario siguiente, el cual no podrá\nser menor de 1000 fracciones básicas exentas de impuesto a la renta, con\nfundamento en el informe económico que reciba del Servicio de Rentas\nInternas sobre las condiciones del sector audiovisual, así como el monto mínimo\nde las inversiones requeridas en el país tanto para las producciones nacionales\ncomo para las extranjeras. En el Reglamento a esta Ley, se determinarán los\nrequisitos de inversión, destinatarios y demás aspectos para su ejecución."
+    },
+    {
+      "provision_ref": "art30",
+      "chapter": "TÍTULO VI",
+      "section": "TÍTULO VI",
+      "title": "Incentivo al desarrollo del talento y la economía nacional.",
+      "content": "Artículo 30.- Incentivo al desarrollo del talento y la economía nacional.\nComo un aporte de los sujetos pasivos del sector audiovisual que accedan a las\nexoneraciones y certificado de crédito tributario previsto en el presente título,\nen el marco de su responsabilidad social corporativa, y con la finalidad de\nincentivar y promover la participación local y nacional, así como el empleo de\nmateriales, insumos, equipo y mano de obra de origen ecuatoriano, deberán en\nel desarrollo, preproducción, producción, postproducción y distribución de\ncontenidos audiovisuales, en cuánto les fuera posible para la ejecución de sus\nproyectos, contratar proveedores de obras, bienes y servicios de origen local y\nnacional.\nEn las contrataciones se preferirá al oferente de bienes, obras o servicios que\nincorpore mayor componente de origen ecuatoriano o a los actores de la\nEconomía Popular y Solidaria y Micro, Pequeñas y Medianas Empresas."
+    },
+    {
+      "provision_ref": "art31",
+      "chapter": "TÍTULO VI",
+      "section": "TÍTULO VI",
+      "title": "La interculturalidad será un eje prioritario de la actividad",
+      "content": "Artículo 31.- La interculturalidad será un eje prioritario de la actividad\naudiovisual y los incentivos otorgados deberán considerar, entre uno de los\nfactores, al involucramiento de pueblos y nacionalidades en la actividad\naudiovisual que se promueva.\nTÍTULO VII\nEDUCACIÓN PARA LA TRANSFORMACIÓN DIGITAL"
+    },
+    {
+      "provision_ref": "art32",
+      "chapter": "TÍTULO VII",
+      "section": "TÍTULO VII",
+      "title": "Las instituciones públicas y privadas involucradas en procesos",
+      "content": "Artículo 32.- Las instituciones públicas y privadas involucradas en procesos\nde Transformación Digital, deberán implementar planes y programas\naccesibles y gratuitos de formación y capacitación al usuario en el ámbito\nde desarrollo tecnológico a ser digitalizado, todos estos planes y programas,\ndeberán ser diseñados en relación a la presente Ley. Dentro del proceso\nPágina 14 de 37\n17\nMartes 7 de febrero de 2023                       Tercer Suplemento Nº 245 - Registro Oficial\nobligatorio de rendición de cuentas a cargo de cada entidad del Estado, deberá\nincluirse un segmento de Rendición de Cuentas en el ámbito de la\nTransformación Digital."
+    },
+    {
+      "provision_ref": "art33",
+      "chapter": "TÍTULO VII",
+      "section": "TÍTULO VII",
+      "title": "De la transformación digital de las mallas curriculares. Las",
+      "content": "Artículo 33.- De la transformación digital de las mallas curriculares. Las\nescuelas, colegios y universidades deberán determinar dentro de sus ofertas\neducativas los programas o materias que, por su naturaleza, puedan ser\ncursadas por los estudiantes de manera virtual, incluyendo su evaluación.\nEn el caso de las instituciones de educación superior públicas y privadas, de\nacuerdo a la naturaleza de la carrera o del programa de posgrado, deberán\nadecuar el desarrollo de sus programas de estudios al entorno virtual para\nelección del estudiante. El reglamento normará lo indicado en el presente\nartículo.\nLas instituciones de educación superior públicas y privadas, deberán contar\ndentro de su planta docente con un mínimo de 5% de profesores contratados o\ntitulares para ejercer labores académicas en modalidad virtual, sin perjuicio del\nlugar de su residencia, con el objetivo de contribuir al desarrollo del aprendizaje\nen línea, fomentar la internacionalización de la oferta académica, así como para\npromover el intercambio de experiencias y la integración de docentes dentro y\nfuera del país.\nEl Estado promoverá, además, la educación y la alfabetización digital en todos\nlos niveles del Sistema Nacional de Educación, de tal manera que los\nestudiantes adquieran las habilidades y capacidades digitales necesarias para\nsu adaptación a las nuevas tecnologías, en el marco de la transformación digital.\nPara el efecto, el ente rector de transformación digital, en coordinación con el\nente rector de educación, emitirá las políticas, planes, programas y proyectos\nque sean necesarios.\nSe aplicarán los principios de calidad y calidez para la determinación de los\nprogramas o materias que, por su naturaleza, puedan ser cursadas por los\nestudiantes de manera virtual, incluyendo su evaluación."
+    },
+    {
+      "provision_ref": "art34",
+      "chapter": "TÍTULO VII",
+      "section": "TÍTULO VII",
+      "title": "Infocentros. Los Gobiernos Autónomos Descentralizados en",
+      "content": "Artículo 34.- Infocentros. Los Gobiernos Autónomos Descentralizados en\ntodos sus niveles, especialmente en la ruralidad, deberán implementar en sus\ndependencias un espacio destinado para un infocentro comunitario con\nacceso a internet libre y gratuito,con el fin de reducir la brecha digital.\nLIBRO II\nREFORMAS A VARIOS CUERPOS LEGALES\nPágina 15 de 37\n18\nRegistro Oficial - Tercer Suplemento Nº 245                      Martes 7 de febrero de 2023\nTÍTULO I\nREFORMAS A LA LEY ORGÁNICA DE TELECOMUNICACIONES"
+    },
+    {
+      "provision_ref": "art35",
+      "chapter": "TÍTULO I",
+      "section": "TÍTULO I",
+      "title": "En el artículo 3 agregar como numeral 18 el siguiente texto:",
+      "content": "Artículo 35.- En el artículo 3 agregar como numeral 18 el siguiente texto:\n“18. Fomentar     el   despliegue     de  redes    comunitarias    de\ntelecomunicaciones      en zonas urbano-marginales, rurales,\nfronterizas y prioritarias, así como garantizar el desarrollo de\nredes comunitarias de telecomunicaciones, para garantizar el\nacceso a las tecnologías de la información y comunicación que\ncoadyuven a disminuir la brecha digital.”"
+    },
+    {
+      "provision_ref": "art36",
+      "chapter": "TÍTULO I",
+      "section": "TÍTULO I",
+      "title": "Sustitúyase el último inciso del artículo 9 por el siguiente texto:",
+      "content": "Artículo 36.- Sustitúyase el último inciso del artículo 9 por el siguiente texto:\n“De acuerdo con su utilización las redes de telecomunicaciones se\nclasifican en:\na)   Redes Públicas de Telecomunicaciones.\nb)   Redes Privadas de Telecomunicaciones.\nc)   Redes Comunitarias de Telecomunicaciones.”"
+    },
+    {
+      "provision_ref": "art37",
+      "chapter": "TÍTULO I",
+      "section": "TÍTULO I",
+      "title": "A continuación del artículo 13, incorpórese un artículo 13.1, con",
+      "content": "Artículo 37.- A continuación del artículo 13, incorpórese un artículo 13.1, con\nel siguiente texto:\n“Art. 13.1.- Redes comunitarias de telecomunicaciones.- Las\nredes comunitarias son aquellas desplegadas y/o utilizadas por\npersonas naturales o jurídicas públicas o privadas, sin fines de lucro,\no por organizaciones de la economía popular y solidaria legalmente\nconstituidas, que tienen el propósito de satisfacer las necesidades de\nservicios de telecomunicaciones propias de una o varias\ncomunidades de conformidad a esta Ley.\nEstas organizaciones auto provisionarán y auto gestionarán servicios\nde telecomunicaciones exclusivamente en zonas urbano-marginales,\nrurales, fronterizas y priorizadas que sean determinadas por el ente\nrector de las Telecomunicaciones y de la Sociedad de la Información.\nEstas tenderán a un diseño de red abierta, sin protocolos ni\nespecificaciones de tipo propietario y permitirá la interconexión, acceso\ny conexión con otras redes públicas. Su operación requiere de un\nregistro realizado ante la Agencia de Regulación y Control de las\nTelecomunicaciones y en caso de requerir de uso de frecuencias del\nespectro radioeléctrico, del título habilitante respectivo.\nPágina 16 de 37\n19\nMartes 7 de febrero de 2023                        Tercer Suplemento Nº 245 - Registro Oficial\nLa Agencia de Regulación y Control de las Telecomunicaciones\nregulará el establecimiento, garantizará la ciberseguridad y uso de\nredes comunitarias de telecomunicaciones; así como establecerá un\nrégimen tarifario preferente.”"
+    },
+    {
+      "provision_ref": "art38",
+      "chapter": "TÍTULO I",
+      "section": "TÍTULO I",
+      "title": "En el primer inciso del artículo 51, incorporar como numeral 9",
+      "content": "Artículo 38.- En el primer inciso del artículo 51, incorporar como numeral 9\nel siguiente texto:\n“9.     Redes comunitarias de telecomunicaciones.”"
+    },
+    {
+      "provision_ref": "art39",
+      "chapter": "TÍTULO I",
+      "section": "TÍTULO I",
+      "title": "Sustitúyase el último inciso del artículo 63 de la Ley Orgánica",
+      "content": "Artículo 39.- Sustitúyase el último inciso del artículo 63 de la Ley Orgánica\nde Telecomunicaciones por el siguiente texto:\n“Para favorecer el desarrollo del servicio universal y reducción de\nbrecha digital, se regulará tarifas preferenciales que permitan el\ndesarrollo económico de regiones, grupos sociales de atención\nprioritaria, y, de zonas rurales, urbano marginales y de frontera.”"
+    },
+    {
+      "provision_ref": "art40",
+      "chapter": "TÍTULO I",
+      "section": "TÍTULO I",
+      "title": "A continuación del artículo 88 de la Ley Orgánica de",
+      "content": "Artículo 40.- A continuación del artículo 88 de la Ley Orgánica de\nTelecomunicaciones incluir el siguiente:\n“Artículo 88.1.- De la Sociedad de la Información y el\nConocimiento.- La Sociedad de la Información es aquella que a través\nde la transformación digital usa y se apropia de las\ntelecomunicaciones y de las TIC, para mejorar la calidad de vida, la\ncompetitividad y el crecimiento económico.\nEl acceso y uso de las Tecnologías de la Información y\nComunicaciones, el desarrollo de aplicaciones y contenidos digitales,\nla apropiación de nuevas tecnologías, el desarrollo de una cultura\ndigital y proporcionar formación en tecnologías, son pilares de la\nconsolidación de la Sociedad de la Información.\nTodas las personas tienen el derecho a participar en la sociedad de la\ninformación. El Estado garantizará el acceso universal al servicio\npúblico de internet, de conformidad con la Constitución de la\nRepública.\nLa sociedad de la información y el conocimiento tendrá los siguientes\nfines:\na.    Promover el uso y apropiación de las TIC;\nb.    Promover el desarrollo de contenidos y aplicaciones, y la\nprestación de servicios que usen Tecnologías de la Información\ny las Comunicaciones;\nPágina 17 de 37\n20\nRegistro Oficial - Tercer Suplemento Nº 245                       Martes 7 de febrero de 2023\nc. Promover políticas de competencia acordes a la era digital;\nd. Incentivar y promover el desarrollo de la industria ecuatoriana\nde software y servicios TI para contribuir al crecimiento\neconómico, la competitividad, la generación de empleo y las\nexportaciones;\ne. Promover la transformación digital, con especial énfasis en\nlos sectores de salud, educación y productividad; y,\nf. Las entidades que forman parte del Gobierno Central deben\ndirigir sus actuaciones enfocadas al cumplimiento de los fines\nde la Sociedad de la Información.”"
+    },
+    {
+      "provision_ref": "art41",
+      "chapter": "TÍTULO I",
+      "section": "TÍTULO I",
+      "title": "Incluir la siguiente Disposición Transitoria en la Ley Orgánica de",
+      "content": "Artículo 41.- Incluir la siguiente Disposición Transitoria en la Ley Orgánica de\nTelecomunicaciones:\n“Se dispone la optimización de los recursos por contribución del\nServicio Universal, dispuesto en el artículo 92 de la Ley Orgánica de\nTelecomunicaciones. Para el empleo de estos recursos, el ente rector\nde las telecomunicaciones establecerá la priorización de proyectos que\npermitan la ampliación de conectividad de servicios de\ntelecomunicaciones y el cierre de la brecha digital en las zonas urbano-\nmarginales, rurales y fronterizas. En caso de existir recursos\nexcedentes, éstos podrán ser ejecutados por la Secretaría de\nEducación Superior,        Ciencia, Tecnología e Innovación, quien\nestablecerá los criterios técnicos a fin de destinar dicho excedente para\nel desarrollo del ámbito tecnológico.\nLos criterios para la priorización de proyectos que permitan la\nampliación de conectividad de servicios de telecomunicaciones y el\ncierre de la brecha digital en las zonas urbano- marginales, rurales y\nfronterizas, serán definidos por el Ministerio de Telecomunicaciones\ny Sociedad de la Información en el término de 60 días contados a partir\nde la expedición de la presente reforma a la Ley Orgánica de\nTelecomunicaciones.”"
+    },
+    {
+      "provision_ref": "art42",
+      "chapter": "TÍTULO I",
+      "section": "TÍTULO I",
+      "title": "Inclúyase después de la Disposición General Cuarta, la",
+      "content": "Artículo 42.- Inclúyase después de la Disposición General Cuarta, la"
+    },
+    {
+      "provision_ref": "disposicion-general-quinta",
+      "chapter": "TÍTULO I",
+      "section": "TÍTULO I",
+      "title": ", con el siguiente texto:",
+      "content": "Disposición General Quinta, con el siguiente texto:\n“Quinta.- Las frecuencias del espectro radioeléctrico para uso de\nemergencia, y uso para fines humanitarios, que cumplan con los\nlineamientos dispuestos por el ente rector de telecomunicaciones,\nestarán exentos del pago de tarifas por asignación y uso del espectro\nradioeléctrico. La Agencia de Regulación y Control de las\nTelecomunicaciones reglamentará la explotación de estos servicios.”\nPágina 18 de 37\n21\nMartes 7 de febrero de 2023                           Tercer Suplemento Nº 245 - Registro Oficial\nTÍTULO II\nREFORMAS A LA LEY ORGÁNICA DE EDUCACIÓN INTERCULTURAL"
+    },
+    {
+      "provision_ref": "art43",
+      "chapter": "TÍTULO II",
+      "section": "TÍTULO II",
+      "title": "En el artículo 6 realizar las siguientes modificaciones:",
+      "content": "Artículo 43.- En el artículo 6 realizar las siguientes modificaciones:\n1.    Sustituir el literal j) por el siguiente texto:\n“j) Garantizar el desarrollo de competencias digitales, así como el\nacceso y el uso de las tecnologías de la información y comunicación\nen todas las fases de la educación y formación, y en todos los\nsegmentos de la población, a fin de propiciar el enlace de la\nenseñanza con las actividades productivas y sociales.”\n2.    A continuación del literal j) incorpórese como nuevo literal el siguiente\ntexto:\n“k) Incluir en los currículos de estudio, de manera progresiva, el\ndesarrollo de competencias en ciencia, tecnología, ingeniería y\nmatemáticas (CTIM) y adoptar medidas para su incorporación\ndesde una edad temprana, como parte de una estrategia para el\naprendizaje permanente.”\nTÍTULO III\nREFORMAS A LA LEY ORGÁNICA DE EDUCACIÓN SUPERIOR"
+    },
+    {
+      "provision_ref": "art44",
+      "chapter": "TÍTULO III",
+      "section": "TÍTULO III",
+      "title": "En el artículo 8 incorporar un nuevo literal:",
+      "content": "Artículo 44.- En el artículo 8 incorporar un nuevo literal:\n“m) Fortalecer la formación profesional en las nuevas tecnologías para\nafrontar los retos de la economía digital, identificando habilidades\ntecnológicas y adaptando las mallas curriculares de la educación\nsuperior de acuerdo al nivel de desarrollo de tecnologías digitales.”\nTÍTULO IV\nREFORMAS AL CÓDIGO DE COMERCIO"
+    },
+    {
+      "provision_ref": "art45",
+      "chapter": "TÍTULO IV",
+      "section": "TÍTULO IV",
+      "title": "Reemplácese el artículo 78 por el siguiente:",
+      "content": "Artículo 45.- Reemplácese el artículo 78 por el siguiente:\n“Art. 78.- Los títulos valores, físicos, desmaterializados o electrónicos,\nson documentos que representan el derecho literal y autónomo que en\nellos se incorpora, permitiendo a su titular o legítimo tenedor ejercitar\nel derecho mencionado en él. Pueden ser de distinta naturaleza\ndependiendo del derecho o bien que ellos aluden.\nLos títulos valores, físicos, desmaterializados o electrónicos, circulan\nde la manera establecida en la ley.\nPágina 19 de 37\n22\nRegistro Oficial - Tercer Suplemento Nº 245                       Martes 7 de febrero de 2023\nLos documentos y los actos a que se refiere este título sólo producirán\nlos efectos en él previstos cuando contengan las menciones y llenen los\nrequisitos que la ley señale.”"
+    },
+    {
+      "provision_ref": "art46",
+      "chapter": "TÍTULO IV",
+      "section": "TÍTULO IV",
+      "title": "Reemplácese el artículo 79 por el siguiente:",
+      "content": "Artículo 46.- Reemplácese el artículo 79 por el siguiente:\n“Art. 79.- El suscriptor, o la persona que firma un título valor, quedará\nobligado conforme al tenor literal del título valor, físico,\ndesmaterializado o electrónico, a menos que firme con salvedades\ncompatibles con su esencia.”"
+    },
+    {
+      "provision_ref": "art47",
+      "chapter": "TÍTULO IV",
+      "section": "TÍTULO IV",
+      "title": "En el artículo 80, eliminar el segundo inciso posterior al",
+      "content": "Artículo 47.- En el artículo 80, eliminar el segundo inciso posterior al\nliteral b, cuyo artículo quedaría redactado de la siguiente manera:\n“Art. 80.- Además de lo dispuesto para cada título valor en particular,\nlos títulos valores deberán tener los siguientes requisitos:\na)   La mención del derecho que en el título se incorpora, con\nindicación del objeto en que consiste y de su valor. Si la\nobligación consiste en una cantidad de dinero y ésta devenga\nintereses, la indicación de estos, o el porcentaje del cupo, margen\no descuento sobre el importe del título, de ser el caso. De no\nhaberse señalado la tasa de interés a pagar y/u otra forma\nde fijar ganancias en el título, y si laobligación de pago se\nfunda en un mutuo o préstamo de consumo, se entenderá que la\nobligación devenga la tasa máxima de interés legal vigente,\npublicada por el Banco Central del Ecuador o la institución que\nhaga sus veces en el futuro; y, a partir de que se haya constituido\nal deudor en mora, la tasa máxima de mora que corresponderá\nal uno punto un (1.1) veces la tasa legal antes indicada; y,\nb)   La firma, autógrafa o electrónica, de quién lo crea.\nc)   La aceptación podrá expresarse de la manera en la que lo\npacten las partes tales como: teléfonos celulares, token, OTP,\nfirma certificada u otro tipo de dispositivos o aplicaciones tipo\nAPP o web u otras que hayan sido habilitadas con tal objetivo por\nel emisor del título.\nLa firma podrá sustituirse, bajo la responsabilidad del creador del\ntítulo, por un signo o contraseña inserto mecánicamente. Este signo\no contraseña debe ser protocolizado en una notaría previo su\nutilización.\nPágina 20 de 37\n23\nMartes 7 de febrero de 2023                       Tercer Suplemento Nº 245 - Registro Oficial\nLa falta de fecha de creación del título, y si la ley no dispone otra\ncosa, no lo anulará y hará presumir iuris tantum que fue emitido en\nla misma fecha de vencimiento.\nLa indicación de los intereses, bajo ningún concepto podrá superar la\ntasa máxima de interés legal vigente publicada por el Banco Central\ndel Ecuador o la institución que haga sus veces en el futuro, o caso\ncontrario dicha indicación se entenderá como no escrita, sin perjuicio\nde las responsabilidades penales y civiles que se desprenda de este\nhecho.”"
+    },
+    {
+      "provision_ref": "art48",
+      "chapter": "TÍTULO IV",
+      "section": "TÍTULO IV",
+      "title": "Reemplácese el artículo 85 por el siguiente:",
+      "content": "Artículo 48.- Reemplácese el artículo 85 por el siguiente:\n“Art. 85.- El título valor, físico, desmaterializado o electrónico,\nque cumpla los requisitos señalados en este Código adquiere eficacia\na partir de su entrega al tenedor, salvo los casos de entrega realizada\na terceros con finalidad de custodia o transporte.\nCuando el título se halle en poder de persona distinta del suscriptor\nse presumirá tal entrega.”"
+    },
+    {
+      "provision_ref": "art49",
+      "chapter": "TÍTULO IV",
+      "section": "TÍTULO IV",
+      "title": "Reemplácese el artículo 88 por el siguiente:",
+      "content": "Artículo 49.- Reemplácese el artículo 88 por el siguiente:\n“Art. 88.- Cuando dos o más personas suscriban un título valor, físico,\ndesmaterializado o electrónico, como giradores, otorgantes, emisores,\nendosantes, avalistas o fiadores, quedan obligados solidariamente a\nsu pago. Los cedentes o quienes los transfieran, deberán limitar su\nresponsabilidad mediante una leyenda que deberá constar en el\nmismo título o en una hoja adherida a éste o mediante cualquier medio\ngráfico, mecánico o electrónico; si no lo hicieran, responderán\nsolidariamente del cumplimiento de la obligación que el título contiene.\nQuien solucione o pague la obligación contenida en el título goza de los\nderechos que confiere la ley al codeudor solidario que paga respecto\nde los restantes codeudores.”"
+    },
+    {
+      "provision_ref": "art50",
+      "chapter": "TÍTULO IV",
+      "section": "TÍTULO IV",
+      "title": "Reemplácese el artículo 90 por el siguiente:",
+      "content": "Artículo 50.- Reemplácese el artículo 90 por el siguiente:\n“Art. 90.- La reivindicación, el secuestro, o cualquier otra afectación o\ngravamen sobre los derechos consignados en un título valor, físico,\ndesmaterializado o electrónico, o sobre las mercancías por él\nrepresentadas, no surtirán efectos si no comprenden el título mismo\nmaterialmente.”"
+    },
+    {
+      "provision_ref": "art51",
+      "chapter": "TÍTULO IV",
+      "section": "TÍTULO IV",
+      "title": "Reemplácese el artículo 92 por el siguiente:",
+      "content": "Artículo 51.- Reemplácese el artículo 92 por el siguiente:\nPágina 21 de 37\n24\nRegistro Oficial - Tercer Suplemento Nº 245                         Martes 7 de febrero de 2023\n“Art. 92.- La fianza podrá constar en el título valor mismo, sea este\nfísico, desmaterializado o electrónico o en hoja adherida a él o\nmediante cualquier medio gráfico, mecánico o electrónico. Podrá\ntambién, otorgarse por escrito separado en que se identifique\nplenamente el título cuyo pago total o parcial se garantiza. Se\nexpresará con la fórmula por \"fianza\", \"aval\" u otra equivalente y\ndeberá llevar la firma de quien lo presta. La sola firma puesta en el\ntítulo, cuando no se le pueda atribuir otra significación se tendrá como\nfirma de avalista y con el carácter de deudor solidario.\nCuando el aval se otorgue en documento separado del título, la\nnegociación de éste implicará la transferencia de la garantía que surge\nde aquel.”"
+    },
+    {
+      "provision_ref": "art52",
+      "chapter": "TÍTULO IV",
+      "section": "TÍTULO IV",
+      "title": "Reemplácese el artículo 95 por el siguiente:",
+      "content": "Artículo 52.- Reemplácese el artículo 95 por el siguiente:\n“Art. 95.- Si el título valor, físico, desmaterializado o electrónico, fuese\nemitido por más de una persona, la fianza o aval debe indicar la\npersona avalada. A falta de indicación quedarán garantizadas las\nobligaciones de todas y cada una de las partes en el título y la\nobligación será solidaria.”"
+    },
+    {
+      "provision_ref": "art53",
+      "chapter": "TÍTULO IV",
+      "section": "TÍTULO IV",
+      "title": "Reemplácese el artículo 96 por el siguiente:",
+      "content": "Artículo 53.- Reemplácese el artículo 96 por el siguiente:\n“Art. 96.- El fiador o avalista que pague adquiere los derechos\nderivados del título valor, físico, desmaterializado o electrónico, contra\nla persona garantizada y contra los que sean responsables respecto\nde esta última por virtud del título.”"
+    },
+    {
+      "provision_ref": "art54",
+      "chapter": "TÍTULO IV",
+      "section": "TÍTULO IV",
+      "title": "En el artículo 84, al final del penúltimo inciso, agréguese lo",
+      "content": "Artículo 54.- En el artículo 84, al final del penúltimo inciso, agréguese lo\nsiguiente:\n“Aquellos títulos valores desmaterializados o electrónicos que no se\nnegocien en el mercado de valores, podrán utilizar cualquier tipo de\ntecnología y sistema tecnológico como forma probatoria de la existencia\nde los valores electrónicos o desmaterializados, conforme a los\nprincipios de neutralidad tecnológica, equivalencia funcional y\nautonomía de las partes.\nLos títulos electrónicos emitidos por los bancos a través de la\naceptación decualquier medio calificado son distintos a los a los títulos\ndesmaterializados.”\nPágina 22 de 37\n25\nMartes 7 de febrero de 2023                        Tercer Suplemento Nº 245 - Registro Oficial"
+    },
+    {
+      "provision_ref": "art55",
+      "chapter": "TÍTULO IV",
+      "section": "TÍTULO IV",
+      "title": "En el artículo 109, luego de la frase: “El endoso de títulos",
+      "content": "Artículo 55.- En el artículo 109, luego de la frase: “El endoso de títulos\nvalores desmaterializados”, agréguese la frase: “negociables en el mercado de\nvalores”."
+    },
+    {
+      "provision_ref": "art56",
+      "chapter": "TÍTULO IV",
+      "section": "TÍTULO IV",
+      "title": "En el artículo 112 realícese los siguientes cambios:",
+      "content": "Artículo 56.- En el artículo 112 realícese los siguientes cambios:\na.   Reemplácese el segundo inciso por el siguiente:\n“En el caso de títulos valor electrónicos se seguirán las reglas del\nanterior inciso y las disposiciones sobre posesión en títulos valor\ncontenidas en la Ley de Comercio Electrónico. Para aquellos títulos\nvalores que se negocien en el mercado de valores seguirán las reglas\nde la Ley de Mercado de Valores y regulaciones conexas.”\nb.   Agréguese como tercer inciso lo siguiente:\n“En el endoso, cesión, transmisión de derechos y de documentos,\nnotificación o entrega de títulos electrónicos, se podrá utilizar medios\nelectrónicos, telemáticos y firmas manuscritas o electrónicas.”"
+    },
+    {
+      "provision_ref": "art57",
+      "chapter": "TÍTULO IV",
+      "section": "TÍTULO IV",
+      "title": "A continuación del artículo 112, agréguese el siguiente artículo",
+      "content": "Artículo 57.- A continuación del artículo 112, agréguese el siguiente artículo\ninnumerado:\n“Artículo (…).- Reconocimiento jurídico de los títulos valor\nelectrónicos.- Se reconoce igual validez jurídica y efectos jurídicos a\nlos títulos valor electrónicos respecto de los emitidos en papel, siempre\nque cumplan con los requisitos legales contenidos en el presente\nCódigo, la Ley de Comercio Electrónico, Firmas y Mensajes de Datos y\nsu Reglamento, y demás normativa aplicable.\nNo se negarán efectos jurídicos, validez ni fuerza ejecutoria a un título\nvalor por la sola razón de que esté en forma electrónica. Los títulos\nvalor al portador no serán susceptibles de emitirse ni existir de manera\nelectrónica.”"
+    },
+    {
+      "provision_ref": "art58",
+      "chapter": "TÍTULO IV",
+      "section": "TÍTULO IV",
+      "title": "Después del artículo 113, agréguese el siguiente artículo",
+      "content": "Artículo 58.- Después del artículo 113, agréguese el siguiente artículo\ninnumerado:\n“Art. (…).- La firma de quien cede o avala una letra de cambio podrá\nrealizarse por medio de firma electrónica, la cual tendrá igual validez\ny se le reconocerán los mismos efectos jurídicos que a una firma\nmanuscrita, de acuerdo con lo establecido en la ley.”"
+    },
+    {
+      "provision_ref": "art59",
+      "chapter": "TÍTULO IV",
+      "section": "TÍTULO IV",
+      "title": "Sustitúyase el artículo 126 por el siguiente:",
+      "content": "Artículo 59.- Sustitúyase el artículo 126 por el siguiente:\nPágina 23 de 37\n26\nRegistro Oficial - Tercer Suplemento Nº 245                       Martes 7 de febrero de 2023\n“Artículo 126.- El endoso deberá constar en la letra de cambio o en\nun documento adherido a la misma, en físico o electrónico o anexo\naccesible mediante un enlace electrónico directo o mediante cualquier\ntecnología fiable. Deberá ser firmado física o electrónicamente por el\nendosante.\nEl endoso será válido aun cuando en él no se designe la persona a\ncuyo favor se haga, o cuando el endosante se hubiera limitado a poner\nsu firma en el dorso de la letra o en una hoja adherida a la misma\n(endoso en blanco).”"
+    },
+    {
+      "provision_ref": "art60",
+      "chapter": "TÍTULO IV",
+      "section": "TÍTULO IV",
+      "title": "Después del artículo 189, agréguese el siguiente:",
+      "content": "Artículo 60.- Después del artículo 189, agréguese el siguiente:\n“Art. (…).- La firma de quien suscribe, endosa, cede o avala un pagaré\na la orden, podrá realizarse por medio de firma electrónica, la cual\ntendrá igual validez y se le reconocerán los mismos efectos jurídicos\nque a una firma manuscrita, de acuerdo con lo establecido en la ley.”"
+    },
+    {
+      "provision_ref": "art61",
+      "chapter": "TÍTULO IV",
+      "section": "TÍTULO IV",
+      "title": "Agréguese un segundo inciso en el artículo 272 con el siguiente",
+      "content": "Artículo 61.- Agréguese un segundo inciso en el artículo 272 con el siguiente\ntexto:\n“En la cesión o transmisión de derechos, obligaciones, contratos,\ndeudas y documentos mercantiles, entrega de títulos y documentos, se\npodrá utilizar medios electrónicos o telemáticos y firmas manuscritas\no electrónicas.”\nTÍTULO V\nREFORMAS A LA LEY DE COMERCIO ELECTRÓNICO, FIRMAS\nELECTRÓNICAS Y MENSAJES DE DATOS"
+    },
+    {
+      "provision_ref": "art62",
+      "chapter": "TÍTULO V",
+      "section": "TÍTULO V",
+      "title": "A continuación del artículo 11, añádase el siguiente artículo",
+      "content": "Artículo 62.- A continuación del artículo 11, añádase el siguiente artículo\ninnumerado:\n“Artículo (…).- La posesión en los títulos valor electrónicos.-\nCuando por ley se requiera o permita la posesión de un título valor, tal\nrequisito se dará por cumplido respecto de los títulos valor electrónicos\nsi se utiliza un método fiable:\n1.   Para determinar qué ese título valor electrónico está bajo el\ncontrol exclusivo de una persona; y,\n2.   Para identificar a dicha persona como la persona que tiene el\ncontrol sobre el título valor electrónico.\nPágina 24 de 37\n27\nMartes 7 de febrero de 2023                         Tercer Suplemento Nº 245 - Registro Oficial\nCuando por ley se requiera o permita que se transfiera la posesión de\nun título valor, tal requisito se cumplirá con respecto de los títulos valor\nelectrónicos mediante la transferencia del control del mismo.\nEn el caso de que se empleen sistemas para la gestión de los títulos\nvalor electrónicos, como los basados en registros descentralizados, que\nidentifiquen a la persona que ejerce el control empleando seudónimos\no cualquier mecanismo que no sea directamente el nombre verdadero,\nesta forma de identificación, y la posibilidad de vincular el seudónimo\nal nombre verdadero, de ser necesario, permitirá cumplir el requisito\nde identificar a la persona que tiene el control conforme el numeral\n2 del presente artículo. En el caso de que se utilice un seudónimo\nla persona que se encuentra en poder del título valor debe ser\nplenamente identificable.”"
+    },
+    {
+      "provision_ref": "art63",
+      "chapter": "TÍTULO V",
+      "section": "TÍTULO V",
+      "title": "Veracidad de la firma electrónica dentro de distintos tipos de",
+      "content": "Artículo 63.- Veracidad de la firma electrónica dentro de distintos tipos de\nprocedimiento. La autoridad a cargo de la resolución de un proceso, cualquiera\nque sea su índole, en el caso de que tenga dudas fundamentadas al respecto de\nla veracidad de la firma electrónica contenida en un documento sometido a su\nconsideración, deberá proceder a la verificación de la veracidad de la firma\nelectrónica estampada en un documento electrónico.\nPara el efecto, el ente rector en materia de telecomunicaciones dispondrá el\nsoftware adecuado que utilizarán las autoridades con capacidad resolutoria\npara dar cumplimiento a lo previsto en este artículo. El ente regulador en\nmateria de telecomunicaciones deberá fundamentar la determinación de cuál\nserá el software adecuado a través de la aplicación del principio de neutralidad\nfuncional de la tecnología y estándares y buenas prácticas internacionales.\nTÍTULO VI\nREFORMAS A LA LEY NOTARIAL"
+    },
+    {
+      "provision_ref": "art64",
+      "chapter": "TÍTULO VI",
+      "section": "TÍTULO VI",
+      "title": "Sustitúyase el contenido del artículo 5 por el siguiente:",
+      "content": "Artículo 64.- Sustitúyase el contenido del artículo 5 por el siguiente:\n“Art. 5.- Para el ejercicio de la función notarial, así como la\nprestación de su servicio, serán hábiles todos los días y horas del\naño.\nTodos los servicios notariales serán prestados de manera física o\ntelemática de conformidad con lo previsto en la ley; en el caso de\nprestación telemática, se realizará a través de medios compatibles con\nel sistema informático autorizado por el Consejo de la Judicatura. El\nConsejo de la Judicatura autorizará sistemas digitales cumpliendo con\nlos principios de equivalencia funcional de la tecnología y neutralidad\ntecnológica y acatando las directrices emitidas por el Consejo de la\nPágina 25 de 37\n28\nRegistro Oficial - Tercer Suplemento Nº 245                       Martes 7 de febrero de 2023\nJudicatura. Las y los solicitantes de servicios notariales expresarán\nformalmente la modalidad para la prestación del servicio.\nLos servicios telemáticos serán prestados a través de\nvideoconferencia u otro medio telemático compatible con el sistema\ninformático autorizado por el Consejo de la Judicatura de acuerdo con\nla naturaleza del acto o contrato, debiendo encontrarse una de las\npartes en la circunscripción territorial del notario y, pudiendo las\ndemás encontrarse en cualquier lugar. Si no fuere factible prestar el\nservicio notarial telemático y las partes no pudieren concurrir al\ndespacho notarial, el notario podrá desplazarse a prestar su servicio\nfuera de su despacho en forma física, dentro de su circunscripción\ncantonal.”"
+    },
+    {
+      "provision_ref": "art65",
+      "chapter": "TÍTULO VI",
+      "section": "TÍTULO VI",
+      "title": "Suprímase el numeral 4 del artículo 18.2.",
+      "content": "Artículo 65.- Suprímase el numeral 4 del artículo 18.2."
+    },
+    {
+      "provision_ref": "art66",
+      "chapter": "TÍTULO VI",
+      "section": "TÍTULO VI",
+      "title": "Sustitúyase el numeral 6 del artículo 18.2 por el siguiente:",
+      "content": "Artículo 66.- Sustitúyase el numeral 6 del artículo 18.2 por el siguiente:\n“6.   Autenticación de firmas manuscritas puestas ante él o ella, en\ndocumentos que no sean escrituras públicas.”"
+    },
+    {
+      "provision_ref": "art67",
+      "chapter": "TÍTULO VI",
+      "section": "TÍTULO VI",
+      "title": "Inclúyase el siguiente inciso al final del artículo 22:",
+      "content": "Artículo 67.- Inclúyase el siguiente inciso al final del artículo 22:\n“Los protocolos digitales de las diligencias y actuaciones notariales\ntelemáticas deberán contar con todas las medidas de ciberseguridad\nnecesarias para garantizar la seguridad de la información que reposa\nen ellos, así como su confidencialidad, integridad y disponibilidad,\nincluyendo las garantías de protección de datos personales, de\nconformidad con la normativa vigente y las directrices que para el\nefecto emita el ente rector de transformación digital y otros organismos\ncompetentes.”"
+    },
+    {
+      "provision_ref": "art68",
+      "chapter": "TÍTULO VI",
+      "section": "TÍTULO VI",
+      "title": "Sustitúyase el inciso final del artículo 28 por el siguiente:",
+      "content": "Artículo 68.- Sustitúyase el inciso final del artículo 28 por el siguiente:\n“En la prestación del servicio notarial telemático la notaría o el notario\nverificará el cumplimiento de las obligaciones previstas en el artículo\n27 de esta Ley, priorizando al empleo de la tecnología, para\ngarantizar los principios de celeridad, eficiencia, seguridad de la\ninformación y transparencia en el servicio.”"
+    },
+    {
+      "provision_ref": "art69",
+      "chapter": "TÍTULO VI",
+      "section": "TÍTULO VI",
+      "title": "Suprímase el numeral 10 del artículo 29.",
+      "content": "Artículo 69.- Suprímase el numeral 10 del artículo 29.\nTÍTULO VII\nREFORMAS AL CÓDIGO ORGÁNICO GENERAL DE PROCESOS\nPágina 26 de 37\n29\nMartes 7 de febrero de 2023                      Tercer Suplemento Nº 245 - Registro Oficial"
+    },
+    {
+      "provision_ref": "art70",
+      "chapter": "TÍTULO VII",
+      "section": "TÍTULO VII",
+      "title": "Refórmese el artículo 4 con la siguiente redacción:",
+      "content": "Artículo 70.- Refórmese el artículo 4 con la siguiente redacción:\n“La sustanciación de los procesos en todas las instancias, fases y\ndiligencias se desarrollarán mediante el sistema oral, salvo los actos\nprocesales que deben realizarse por escrito. Las audiencias también\npodrán realizarse por videoconferencia u otros medios telemáticos, la\no el juzgador negará la comparecencia telemática de manera\nexcepcional y únicamente cuando se justifique la imperiosa necesidad\nde que esta sea de manera personal.\nLa o el juzgador está obligado a justificar de manera motivada la\nnegativa de la comparecencia telemática.”"
+    },
+    {
+      "provision_ref": "art71",
+      "chapter": "TÍTULO VII",
+      "section": "TÍTULO VII",
+      "title": "Refórmense los incisos segundo y cuarto del artículo 25 con",
+      "content": "Artículo 71.- Refórmense los incisos segundo y cuarto del artículo 25 con\nlos siguientes textos, respectivamente:\n“Una vez citada la recusación se suspenderá la competencia del juez\nconforme al Código Orgánico General de Procesos y su citación será\núnica y exclusivamente al correo institucional de la o el juzgador\nrecusado, salvo cuando se fundamente en el retardo injustificado, en\ncuyo caso sólo se suspenderá la competencia cuando la recusación\nhaya sido admitida.\nSi la recusación se presenta contra todos los miembros de una sala o\ntribunal, la autoridad competente determinará a las o los juzgadores\nque deberán continuar con la causa principal. La citación también será\núnica y exclusivamente al correo institucional de las o los juzgadores\nrecusados.”"
+    },
+    {
+      "provision_ref": "art72",
+      "chapter": "TÍTULO VII",
+      "section": "TÍTULO VII",
+      "title": "Sustitúyase el artículo 53 por el siguiente:",
+      "content": "Artículo 72.- Sustitúyase el artículo 53 por el siguiente:\n“La citación es el acto por el cual se le hace conocer a la o al\ndemandado, el contenido de la demanda o de la petición de una\ndiligencia preparatoria y de las providencias recaídas en ellas. Se\nrealizará en forma personal, mediante boletas físicas o electrónicas, o\na través del medio de comunicación ordenado por la o el juzgador.\nSi una parte manifiesta que conoce determinada petición o providencia\no se refiere a ella en escrito o en acto del cual quede constancia en el\nproceso, se considerará citada o notificada en la fecha de presentación\ndel escrito o en la del acto al que haya concurrido.\nToda citación será publicada de manera íntegra, esto es, con sus\nrazones y actas de citación en el sistema automático de consultas de\nla página electrónica del Consejo de la Judicatura, a través de los\nPágina 27 de 37\n30\nRegistro Oficial - Tercer Suplemento Nº 245                        Martes 7 de febrero de 2023\nmedios electrónicos y tecnológicos de los que disponga la Función\nJudicial, en la que constará la forma de citación o los motivos por los\ncuales no se pudo efectuar dicha diligencia.\nSi la o el actor ha proporcionado la dirección de correo electrónico de la\no del demandado, la o el juzgador ordenará también que se le haga\nconocer a la o al demandado, por correo electrónico, el extracto de la\ndemanda y del auto inicial, de lo cual, se dejará constancia en el\nsistema. Esto no sustituye a la citación oficial, salvo los casos previstos\npor este Código.”"
+    },
+    {
+      "provision_ref": "art73",
+      "chapter": "TÍTULO VII",
+      "section": "TÍTULO VII",
+      "title": "Agréguese continuación del artículo 55, el siguiente artículo:",
+      "content": "Artículo 73.- Agréguese continuación del artículo 55, el siguiente artículo:\n“Artículo 55.1- Citación por boletas en el domicilio electrónico.-\nA las personas naturales o jurídicas que hayan pactado expresamente\nen un contrato un domicilio electrónico para citaciones se les citará en\nlas direcciones de correo electrónico. La citación se realizará conforme\nlas reglas de la citación telemática previstas a continuación del\nnumeral 3 del tercer párrafo del artículo 55.\nEl actuario del despacho que proceda a la citación por boletas en el\ndomicilio electrónico, procederá a dejar constancia de las boletas de\ncitación y las razones de las mismas, so pena de las sanciones\nadministrativas que correspondan.”"
+    },
+    {
+      "provision_ref": "art74",
+      "chapter": "TÍTULO VII",
+      "section": "TÍTULO VII",
+      "title": "Sustitúyase el artículo 55 por el siguiente:",
+      "content": "Artículo 74.- Sustitúyase el artículo 55 por el siguiente:\n“Citación por boletas y por boletas electrónicas.- Si no se\nencuentra personalmente a la o el demandado, se le citará por medio\nde tres boletas que se entregarán en días distintos y seguidos en su\ndomicilio, residencia, lugar de trabajo o asiento principal de sus\nnegocios a cualquier persona de la familia. Si no se encuentra a\npersona alguna a quien entregarlas, se fijarán en la puerta del lugar\nde habitación, de este particular el citador dejará constancia\nfotográfica adjunta a las actas de citación.\nLa citación por boletas a la o al representante legal de una persona\njurídica se hará en el respectivo establecimiento, oficina o lugar de\ntrabajo, en días y horas hábiles, entregándolas a uno de sus\ndependientes o empleados, previa constatación de que se encuentra\nactivo. De no encontrarse persona alguna o no recibir respuesta en los\nlugares detallados en el presente inciso, el citador procederá a dejar\nlas boletas de citación fijadas en la puerta o debajo de esta, o en un\nsitio de visible del establecimiento, para lo cual deberá fotografiar su\ndiligencia y adjuntarla a sus actas de citación.\nPágina 28 de 37\n31\nMartes 7 de febrero de 2023                        Tercer Suplemento Nº 245 - Registro Oficial\nA quien no se les pueda encontrar personalmente o cuyo domicilio o\nresidencia sea imposible determinar previo a citar por la prensa, se le\npodrá citar de forma telemática por boletas bajo las siguientes reglas:\n1. A las personas naturales en el buzón electrónico ciudadano\nprevisto por la ley, una vez que lo hayan abierto.\n2. A los procuradores judiciales que hayan incluido un correo\nelectrónico dentro del poder, siempre que la o el accionante\nacredite que el procurador judicial accionado cuenta con poder\nvigente y con capacidad para contestar demandas.\n3. A las personas jurídicas sometidas al control de la\nSuperintendencia de Compañías, Valores y Seguros;\nSuperintendencia de Bancos; y, Superintendencia de Economía\nPopular y Solidaria, a través del correo electrónico que se\nencuentre registrado en el ente de control.\nLa citación telemática se realizará con el envío de tres boletas de\ncitación al demandado, en tres días distintos y seguidos, desde la\ncuenta institucional del actuario de la judicatura. A la citación por\ncorreo electrónico se adjuntará la demanda o la petición de una\ndiligencia preparatoria y las providencias recaídas en ellas. El actuario\ndel despacho que proceda a la citación por boletas en el domicilio\nelectrónico, procederá a dejar constancia de las boletas de citación y\nlas razones de las mismas, bajo pena de las sanciones administrativas\nque correspondan. La constancia y certificación de haberse practicado\nla citación telemática será agregada al expediente.\nDicha constancia deberá incluir tanto los correos electrónicos enviados,\nasí como la verificación de recepción o lectura. Para el cumplimiento de\nla citación telemática, no será necesaria la generación de exhortas,\ndeprecatorios o comisiones.”"
+    },
+    {
+      "provision_ref": "art75",
+      "chapter": "TÍTULO VII",
+      "section": "TÍTULO VII",
+      "title": "Refórmese el artículo 115 con el siguiente texto:",
+      "content": "Artículo 75.- Refórmese el artículo 115 con el siguiente texto:\n“Es el medio informático en el cual se registran las actuaciones\njudiciales. En el expediente electrónico se deben almacenar las\npeticiones y documentos que las partes pretendan utilizar en el proceso\ny que será público en todo su contenido, salvo las excepciones\nprevistas en las leyes.\nLas reproducciones digitalizadas o escaneadas de documentos\npúblicos o privados que se agreguen al expediente electrónico tienen la\nmisma fuerza probatoria del original.\nPágina 29 de 37\n32\nRegistro Oficial - Tercer Suplemento Nº 245                       Martes 7 de febrero de 2023\nLos expedientes electrónicos deben estar protegidos por medio de\nsistemas de seguridad de acceso y almacenados en un medio que\ngarantice la preservación e integridad de los datos.\nEl expediente electrónico contendrá lo siguiente:\n1. Providencias judiciales dadas durante la prosecución del\nproceso.\n2. Escritos y diligencias debidamente digitalizadas.\n3. Actas de citación.\n4. Actuaciones dadas en el marco de los artículos 116, 117, 118\ny 119 de este Código.”"
+    },
+    {
+      "provision_ref": "art76",
+      "chapter": "TÍTULO VII",
+      "section": "TÍTULO VII",
+      "title": "Sustitúyase el artículo 193 por el siguiente:",
+      "content": "Artículo 76.- Sustitúyase el artículo 193 por el siguiente:\n“Art. 193.- Prueba documental.- Es todo documento público o\nprivado que recoja, contenga o represente algún hecho o declare,\nconstituya o incorpore un derecho.\nSe podrán desglosar los documentos sin perjuicio de que se vuelvan a\npresentar cuando sea requerido.\nCuando se trate de documentos electrónicos o desmaterializados, no\nse requerirá su materialización.”"
+    },
+    {
+      "provision_ref": "art77",
+      "chapter": "TÍTULO VII",
+      "section": "TÍTULO VII",
+      "title": "Sustitúyase el artículo 194 por el siguiente:",
+      "content": "Artículo 77.- Sustitúyase el artículo 194 por el siguiente:\n“Art. 194.- Presentación de documentos.- Los documentos públicos\no privados se presentarán en originales o en copias.\nSe considerarán copias las reproducciones del original, debidamente\ncertificadas que se realicen por cualquier sistema.\nLos documentos electrónicos o desmaterializados, no requerirán ser\nmaterializados para su validez.”"
+    },
+    {
+      "provision_ref": "art78",
+      "chapter": "TÍTULO VII",
+      "section": "TÍTULO VII",
+      "title": "Sustitúyase el artículo 196 por el siguiente:",
+      "content": "Artículo 78.- Sustitúyase el artículo 196 por el siguiente:\n“Art. 196.- Producción de la prueba documental en audiencia.-\nPara la producción de la prueba documental en audiencia de juicio o\núnica se procederá de la siguiente manera:\n1.   Los documentos se leerán y exhibirán públicamente en su parte\npertinente. En el caso de los documentos electrónicos o\ndesmaterializados, la exhibición se realizará por los medios\nPágina 30 de 37\n33\nMartes 7 de febrero de 2023                      Tercer Suplemento Nº 245 - Registro Oficial\ntecnológicos idóneos. No será necesaria su materialización.\n2.   Los objetos se exhibirán públicamente.\n3.   Las fotografías, grabaciones, los elementos de pruebas\naudiovisuales, computacionales o cualquier otro de carácter\nelectrónico apto para producir fe, se reproducirá también en su\nparte pertinente en la audiencia y por cualquier medio idóneo\npara su percepción por los asistentes.\n4.   La prueba documental actuada quedará en poder de la o del\njuzgador para tenerla a la vista al momento de tomar su\ndecisión sobre el fondo del asunto, dejando a salvo la facultad\nde las partes de volver actuar o usarla durante la audiencia de\njuicio. Los documentos electrónicos o desmaterializados, se\nentregarán en los soportes tecnológicos idóneos.\nCuando la sentencia haya quedado firme, se ordenará su devolución\na las partes, dejando a salvo su derecho a solicitar que los documentos\nagregados al proceso le sean desglosados dejando en el expediente\ncopias certificadas, sean estas digitales o no.\nUna vez que la sentencia haya sido ejecutada y digitalizados los\ndocumentos físicos agregados al proceso, se comunicará a las partes\nde su obligación de retirarlos, advirtiendo que en caso de no hacerlo\nen el término de treinta días, estos serán destruidos.”"
+    },
+    {
+      "provision_ref": "art79",
+      "chapter": "TÍTULO VII",
+      "section": "TÍTULO VII",
+      "title": "Reemplácese el contenido del artículo 347 por el siguiente:",
+      "content": "Artículo 79.- Reemplácese el contenido del artículo 347 por el siguiente:\n“Art. 347.- Títulos ejecutivos.- Son títulos ejecutivos siempre que\ncontengan obligaciones de dar o hacer:\n1.   Declaración de parte hecha con juramento ante una o un\njuzgador competente.\n2.   Copia y la compulsa auténticas de las escrituras públicas.\n3.   Documentos privados legalmente reconocidos ante notario,\nreconocidos por decisión judicial, o con firma electrónica\nverificada ante autoridad judicial.\n4.   Letras de cambio físicas, desmaterializadas y electrónicas.\n5.   Pagarés a la orden, físicos, desmaterializados y electrónicos.\n6.   Testamentos.\n7.   Transacción extrajudicial.\n8.   Contratos de mutuo, cuya aceptación de la voluntad se haya\ndado por medios físicos u electrónicos de conformidad con la\nnormativa especial.\nLos demás a los que otras leyes otorguen el carácter de títulos\nejecutivos.”\nPágina 31 de 37\n34\nRegistro Oficial - Tercer Suplemento Nº 245                        Martes 7 de febrero de 2023"
+    },
+    {
+      "provision_ref": "art80",
+      "chapter": "TÍTULO VII",
+      "section": "TÍTULO VII",
+      "title": "Reemplácese el numeral 10 del artículo 363 por el siguiente:",
+      "content": "Artículo 80.- Reemplácese el numeral 10 del artículo 363 por el siguiente:\n“10. La hipoteca, abierta o cerrada.”"
+    },
+    {
+      "provision_ref": "art81",
+      "chapter": "TÍTULO VII",
+      "section": "TÍTULO VII",
+      "title": "Agréguese a continuación del numeral 7 del artículo 373 el",
+      "content": "Artículo 81.- Agréguese a continuación del numeral 7 del artículo 373 el\nsiguiente numeral:\n“8.    Excepción de existencia de convenio arbitral para los casos del"
+    },
+    {
+      "provision_ref": "art363",
+      "chapter": "TÍTULO VII",
+      "section": "TÍTULO VII",
+      "title": "numerales 3, 4, 6, 7 y 10.”",
+      "content": "artículo 363 numerales 3, 4, 6, 7 y 10.”"
+    },
+    {
+      "provision_ref": "art82",
+      "chapter": "TÍTULO VII",
+      "section": "TÍTULO VII",
+      "title": "Reemplácese el texto del artículo 405 por el siguiente:",
+      "content": "Artículo 82.- Reemplácese el texto del artículo 405 por el siguiente:\n“Art. 405.- Retasa y embargo de otros bienes.- En el caso en que\nno haya postores, la o el acreedor podrá solicitar las retasas que sean\nnecesarias de los bienes embargados y se reanudará el proceso de\nremate con el nuevo avalúo o pedir que se embarguen y rematen otros\nbienes liberando los bienes anteriormente embargados.\nSi el valor ofrecido al contado no alcanza a cubrir el crédito de la o del\nejecutante o el de la o del tercerista, podrán pedir, a su arbitrio, que se\nrematen como créditos los dividendos a plazo.”\nTÍTULO VIII\nREFORMAS A LA LEY DE REGISTRO"
+    },
+    {
+      "provision_ref": "art83",
+      "chapter": "TÍTULO VIII",
+      "section": "TÍTULO VIII",
+      "title": "Agréguese a continuación del literal g) del artículo 11, el siguiente:",
+      "content": "Artículo 83.- Agréguese a continuación del literal g) del artículo 11, el siguiente:\n“h) Desarrollar e implementar los sistemas informáticos que permitan\nla transformación a formato digital de todos los registros,\ncertificados, inventarios y demás actos o constancias físicas que\ngenere el Registro para lo cual deberá tomar en cuenta las\ncaracterísticas y condiciones que para dicha finalidad emita la\nDirección Nacional de Registros Públicos (DINARP) como ente rector\nde la actividad registral. El sistema informático permitirá y\npromoverá la interconexión progresiva entre los distintos registros\nde la propiedad del país, que permita el acceso y consulta de los\nciudadanos desde distintas jurisdicciones a una base de datos\nintegrada, y se acompañará con un plan progresivo de\ndigitalización para los cantones que no cuenten con los registros,\ncertificados, inventarios, negocios jurídicos y demás actos o\nconstancias digitalizadas.\nSerán los Gobiernos Autónomos Descentralizados Municipales\nquienes deberán asignar los fondos necesarios para llevar a cabo\nPágina 32 de 37\n35\nMartes 7 de febrero de 2023                        Tercer Suplemento Nº 245 - Registro Oficial\neste proceso en aquellos registros que no tengan autonomía\nfinanciera y administrativa.”"
+    },
+    {
+      "provision_ref": "art84",
+      "chapter": "TÍTULO VIII",
+      "section": "TÍTULO VIII",
+      "title": "Sustitúyase el literal c) del artículo 11, el siguiente artículo:",
+      "content": "Artículo 84.- Sustitúyase el literal c) del artículo 11, el siguiente artículo:\n“c) Llevar, con sujeción a las disposiciones de esta Ley, los libros\ndenominados Registro de Propiedad, Registro de Gravámenes,\nRegistro Mercantil, Registro de Interdicciones y Prohibiciones de\nenajenar y los demás que determine la ley.\nLos libros a cargo del Registrador podrán llevarse de forma\nelectrónica y automatizada siempre que garanticen la seguridad\njurídica, publicidad y la legalidad de los derechos constituidos en\nlos actos, contratos y negocios jurídicos de las personas. Las bases\nde datos y los sistemas informáticos implementados estarán\nsujetos al control y auditoría del ente rector de la actividad\nregistral.\nLos registros digitales que se generen como consecuencia de la\ntransformación a la que se refiere este literal, así como todos los\nregistros digitales que existan al momento o que se generen en el\nfuturo, deberán contar con todas las medidas de ciberseguridad\nnecesarias para garantizar la seguridad de la información que\nreposa en ellos, así como su confidencialidad, integridad y\ndisponibilidad, incluyendo las garantías de protección de datos\npersonales, de conformidad con la normativa vigente y las\ndirectrices que para el efecto emita el ente rector de transformación\ndigital y otros organismos competentes.”"
+    },
+    {
+      "provision_ref": "art85",
+      "chapter": "TÍTULO VIII",
+      "section": "TÍTULO VIII",
+      "title": "Agréguese en el artículo 18, el siguiente texto:",
+      "content": "Artículo 85.- Agréguese en el artículo 18, el siguiente texto:\n“El Libro Repertorio podrá llevarse de forma electrónica en aquellos\nRegistros que implemente un proceso de digitalización y\nautomatización de los trámites registrales a su cargo. Para lo cual el\nproceso electrónico de registro en este Libro debe llevarse con sujeción\nal presente artículo.”"
+    },
+    {
+      "provision_ref": "art86",
+      "chapter": "TÍTULO VIII",
+      "section": "TÍTULO VIII",
+      "title": "Agréguese a continuación del artículo 24, en el TÍTULO V,",
+      "content": "Artículo 86.- Agréguese a continuación del artículo 24, en el TÍTULO V,\nel siguiente artículo innumerado:\n“Art. (…).- Los registros de las inscripciones y el libro de índice general\npodrán llevarse de forma electrónica, para lo cual se tomarán en\nconsideración y serán adaptados todos los procedimientos\ncontemplados en la presente Ley para los registros físicos de los\ndocumentos.”\nPágina 33 de 37\n36\nRegistro Oficial - Tercer Suplemento Nº 245                     Martes 7 de febrero de 2023\nTÍTULO IX\nREFORMAS A LA LEY DE COMPAÑÍAS"
+    },
+    {
+      "provision_ref": "art87",
+      "chapter": "TÍTULO IX",
+      "section": "TÍTULO IX",
+      "title": "Reemplácese el artículo 6 por el siguiente:",
+      "content": "Artículo 87.- Reemplácese el artículo 6 por el siguiente:\n“Art. 6.- Toda compañía nacional o extranjera que negocie o contrajere\nobligaciones en el Ecuador deberá tener en la república un apoderado\no representante que pueda contestar las demandas y cumplir las\nobligaciones respectivas.\nSin perjuicio de lo que se dispone en el artículo 415, si las\nactividades que una compañía extranjera va a ejercer en el Ecuador\nimplicaren la ejecución de obras públicas, la prestación de servicios\npúblicos o la explotación de recursos naturales del país, estará\nobligada a establecerse en él con arreglo a lo dispuesto en la Sección\nXIII de la presente Ley.\nEn los casos mencionados en el inciso anterior, las compañías u otras\nempresas extranjeras organizadas como personas jurídicas, deberán\ndomiciliarse en el Ecuador antes de la celebración del contrato\ncorrespondiente. El incumplimiento de esta obligación determinará la\nnulidad del contrato respectivo.\nLas compañías extranjeras, cuyos capitales sociales estuvieren\nrepresentados únicamente por acciones o participaciones nominativas,\nque tuvieren acciones o participaciones en compañías ecuatorianas,\npero que no ejercieren ninguna otra actividad empresarial en el país,\nni habitual ni ocasionalmente, no serán consideradas con\nestablecimientos permanentes en el país ni estarán obligadas a\nestablecerse en el Ecuador con arreglo a lo dispuesto en la Sección XIII\nde la presente Ley, ni a inscribirse en el Registro Único de\nContribuyentes ni a presentar declaraciones de impuesto a la renta,\npero deberán tener en la república el apoderado, representante\nreferido en el inciso primero de este artículo, o un curador dativo que\nserá nombrado por un juez en caso de ser necesario, el que por ningún\nmotivo será personalmente responsable de las obligaciones de la\ncompañía extranjera antes mencionada. El poder del representante\nantedicho no deberá ni inscribirse ni publicarse por la prensa, pero sí\ndeberá ser conocido por la compañía ecuatoriana en que la sociedad\nextranjera fuere socia o accionista.”"
+    },
+    {
+      "provision_ref": "art88",
+      "chapter": "TÍTULO IX",
+      "section": "TÍTULO IX",
+      "title": "Refórmese el artículo 188 de la siguiente manera:",
+      "content": "Artículo 88.- Refórmese el artículo 188 de la siguiente manera:\nPágina 34 de 37\n37\nMartes 7 de febrero de 2023                        Tercer Suplemento Nº 245 - Registro Oficial\n“La transferencia de acciones comporta la cesión de todos los derechos\ny obligaciones inherentes a ellas.\nLa propiedad de las acciones se transfiere mediante cesión celebrada\nentre cedente y cesionario, fuere personalmente o por quienes los\nrepresentaren. La transferencia de acciones podrá instrumentarse por\nescrito o por cualquier medio electrónico verificable que demuestre la\nvoluntad del cedente y cesionario de transferir la propiedad de las\nacciones.\nDe efectuarse una cesión por escrito, la misma podrá hacerse constar\nen el título correspondiente o en una hoja adherida al mismo. En\naquel caso, el cedente deberá entregar los títulos de acción\ncorrespondientes al cesionario.\nLas transferencias de acciones, efectuadas por medios físicos o\nelectrónicos, surtirán efectos entre el cedente y el cesionario a partir de\nsu celebración, realizada de conformidad con lo previsto en este\nartículo. Por su parte, la tradición de dicha transferencia, así como su\noponibilidad frente a la compañía y terceros, se efectuará a partir de\nla correspondiente inscripción en el Libro de Acciones y Accionistas,\nde acuerdo con el artículo siguiente.\nPara los títulos que estuvieren entregados en custodia en un depósito\ncentralizado de compensación y liquidación, la cesión podrá hacerse\nde conformidad con los mecanismos que se establezcan para tales\ndepósitos centralizados.\nEl cedente, en una transferencia física o electrónica, podrá reservarse\nlos beneficios económicos generados durante períodos anteriores a la\ncesión o los que se generen en el período económico en que se efectúe\nla transferencia. Esta reserva deberá constar expresamente en el\nrespectivo contrato de cesión.\nSerá licita la celebración de un contrato de promesa de cesión de\nacciones, a través de medios físicos o electrónicos. En este caso, se\nobservarán los requisitos exigidos por el Código Civil. El cónyuge a\ncuyo cargo está la administración ordinaria de los bienes sociales\nnecesitará de la autorización expresa del otro cónyuge para realizar\nactos de disposición, limitación, constitución de gravámenes de las\nacciones y participaciones mercantiles que pertenezcan a la sociedad\nconyugal.\nSerán nulas las transferencias realizadas con violación de lo que\ndispone el presente artículo sin que, por consiguiente, el cesionario\npueda ejercer ninguno de los derechos que le otorga esta Ley al\naccionista.”\nPágina 35 de 37\n38\nRegistro Oficial - Tercer Suplemento Nº 245                     Martes 7 de febrero de 2023\nDISPOSICIONES GENERALES\nPRIMERA.- El Ministerio de Economía y Finanzas coordinará con el Consejo de\nla Judicatura para que, dentro de su asignación presupuestaria, se proceda a\nla plena implementación del expediente electrónico en el plazo de noventa (90)\ndías contados desde la entrada en vigencia de esta Ley.\nSEGUNDA.- El Consejo de la Judicatura, dentro del marco de sus competencias\ny en apego a las disposiciones que rigen para la coordinación interinstitucional,\ndeberá solicitar apoyo técnico a la Corte Constitucional para la plena\nimplementación del expediente electrónico, bajo los parámetros definidos en\nesta Ley para dicha herramienta tecnológica.\nTERCERA.- Los procedimientos sustanciados a través del Código Orgánico\nAdministrativo y de la Ley Orgánica de Garantías Jurisdiccionales y Control\nConstitucional, en lo que resulte aplicable, deberán observar las reformas\nestablecidas en esta Ley al Código Orgánico General de Procesos.\nDISPOSICIONES TRANSITORIAS\nPRIMERA.- En un plazo máximo de noventa (90) días contados desde la entrada\nen vigencia de esta Ley, el Consejo de la Judicatura deberá implementar los\nsistemas informáticos que sean necesarios para la correcta e inmediata\naplicación de los expedientes electrónicos.\nSEGUNDA.- El Ministerio de Educación tendrá un plazo máximo de noventa (90)\ndías contados desde la entrada en vigencia de esta Ley, para emitir o actualizar\nlas normativas relacionadas al desarrollo virtual de las clases de escuelas y\ncolegios.\nTERCERA.- El Consejo de Educación Superior tendrá un plazo máximo de\nnoventa (90) días contados desde la entrada en vigencia de esta Ley, para emitir\no actualizar las normativas relacionadas a lo previsto en la transformación\ndigital de las mallas curriculares.\nCUARTA.- El Ministerio de Educación tendrá un plazo máximo de noventa (90)\ndías contados desde la entrada en vigencia de esta Ley, para emitir o actualizar\nlas normativas relacionadas al desarrollo virtual de las clases de escuelas y\ncolegios.\nQUINTA.- El Presidente de la República, dentro de los noventa (90) días\nposteriores a la publicación de la presente Ley en el Registro Oficial, actualizará\nla normativa vigente, así como emitirá el Reglamento correspondiente, para\nviabilizar la aplicación de lo previsto en esta Ley.\nPágina 36 de 37\n39\nMartes 7 de febrero de 2023                                    Tercer Suplemento Nº 245 - Registro Oficial\nSEXTA.- En un plazo de ciento veinte (120) días posteriores a la publicación de\nla presente Ley en el Registro Oficial, el Ministerio de Telecomunicaciones\ndeberá implementar el software adecuado que utilizarán las autoridades para\nla validación administrativa de firmas electrónicas. La referida contratación\ndeberá basarse en el principio de neutralidad tecnológica, interoperabilidad y\nequivalencia funcional de la tecnología.\nSÉPTIMA.- En el plazo máximo de ciento ochenta (180) días posteriores a la\npublicación de la presente Ley en el Registro Oficial, se presentará ante el Pleno\nde la Asamblea Nacional, un informe detallado del seguimiento y evaluación de\nla presente Ley, así como de la Ley Orgánica para la Optimización y Eficiencia\nde Trámites Administrativos, producto de lo cual se resolverá conforme se\nestime conveniente.\nOCTAVA.- El monto de Certificados de Inversión Audiovisual que deberá\notorgarse para el año 2023, será de al menos 1000 fracciones básicas exentas\nde impuesto a la renta."
+    },
+    {
+      "provision_ref": "disposicion-final-unica",
+      "chapter": "TÍTULO IX",
+      "section": "TÍTULO IX",
+      "title": "La presente Ley tiene el carácter de especial, prevalecerá sobre otras",
+      "content": "DISPOSICIÓN FINAL\nÚNICA.- La presente Ley tiene el carácter de especial, prevalecerá sobre otras\nleyes especiales y generales que se le opongan.\nLas disposiciones de la presente Ley entrarán en vigencia a partir de la fecha de\nsu publicación en el Registro Oficial, salvo lo previsto en las disposiciones\ntransitorias.\nDada en la sede de la Asamblea Nacional, ubicada en el Distrito Metropolitano\nde Quito, provincia de Pichincha a los treintaiún días del mes de enero del año\ndos mil veintitrés.\n\u0003\nFirmado electrónicamente por:\nJAVIER VIRGILIO\nSAQUICELA ESPINOZA\nDR. VIRGILIO SAQUICELA ESPINOZA\nPresidente\nFirmado electrónicamente por:\nALVARO RICARDO\nSALAZAR PAREDES\nABG. ÁLVARO SALAZAR PAREDES\nSecretario General\nPágina 37 de 37\n40\nIng. Hugo Del Pozo Barrezueta\nDIRECTOR\nQuito:\nCalle Mañosca 201 y Av. 10 de Agosto\nTelf.: 3941-800\nExts.: 3131 - 3134\nwww.registroficial.gob.ec\nNGA/FA\nEl Pleno de la Corte Constitucional mediante Resolución Administrativa No. 010-AD-CC-2019,\nresolvió la gratuidad de la publicación virtual del Registro Oficial y sus productos, así como la\neliminación de su publicación en sustrato papel, como un derecho de acceso gratuito de la\ninformación a la ciudadanía ecuatoriana.\n“Al servicio del país desde el 1º de julio de 1895”\nEl Registro Oficial no se responsabiliza por los errores\nortográficos, gramaticales, de fondo y/o de forma que\ncontengan los documentos publicados, dichos documentos\nremitidos por las diferentes instituciones para su publicación,\nson transcritos fielmente a sus originales, los mismos que\nse encuentran archivados y son nuestro respaldo."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "no escrita, sin perjuicio\n         de las responsabilidades penales y civiles que se desprend",
+      "definition": "de este\n         hecho.",
+      "source_provision": "art47"
+    }
+  ]
+}

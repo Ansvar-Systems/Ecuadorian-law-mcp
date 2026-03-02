@@ -1,16 +1,17 @@
 # Ecuadorian Law MCP Server
 
-**The Ecuador Law alternative for the AI age.**
+**The Lexis Finder alternative for the AI age.**
 
-[![npm version](https://badge.fury.io/js/%40ansvar/ecuador-law-mcp.svg)](https://www.npmjs.com/package/@ansvar/ecuador-law-mcp)
+[![npm version](https://badge.fury.io/js/@ansvar%2Fecuadorian-law-mcp.svg)](https://www.npmjs.com/package/@ansvar/ecuadorian-law-mcp)
 [![MCP Registry](https://img.shields.io/badge/MCP-Registry-blue)](https://registry.modelcontextprotocol.io)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![GitHub stars](https://img.shields.io/github/stars/Ansvar-Systems/Ecuador-law-mcp?style=social)](https://github.com/Ansvar-Systems/Ecuador-law-mcp)
-[![CI](https://github.com/Ansvar-Systems/Ecuador-law-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/Ansvar-Systems/Ecuador-law-mcp/actions/workflows/ci.yml)
-[![Database](https://img.shields.io/badge/database-pre--built-green)]()
-[![Provisions](https://img.shields.io/badge/provisions-21%2C559-blue)]()
+[![GitHub stars](https://img.shields.io/github/stars/Ansvar-Systems/Ecuadorian-law-mcp?style=social)](https://github.com/Ansvar-Systems/Ecuadorian-law-mcp)
+[![CI](https://github.com/Ansvar-Systems/Ecuadorian-law-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/Ansvar-Systems/Ecuadorian-law-mcp/actions/workflows/ci.yml)
+[![Daily Data Check](https://github.com/Ansvar-Systems/Ecuadorian-law-mcp/actions/workflows/check-updates.yml/badge.svg)](https://github.com/Ansvar-Systems/Ecuadorian-law-mcp/actions/workflows/check-updates.yml)
+[![Database](https://img.shields.io/badge/database-pre--built-green)](https://github.com/Ansvar-Systems/Ecuadorian-law-mcp)
+[![Status](https://img.shields.io/badge/status-ingestion--in--progress-yellow)](https://github.com/Ansvar-Systems/Ecuadorian-law-mcp)
 
-Query **494 Ecuadorian Acts** -- from the Data Protection Act and Computer Misuse and Cybercrimes Act to the Companies Act, Constitution of Ecuador, and more -- directly from Claude, Cursor, or any MCP-compatible client.
+Query Ecuadorian law -- from the Ley Orgánica de Protección de Datos Personales (LOPDP) and the Código Orgánico Integral Penal (COIP) to the Código Civil, Código de Comercio, and more -- directly from Claude, Cursor, or any MCP-compatible client.
 
 If you're building legal tech, compliance tools, or doing Ecuadorian legal research, this is your verified reference database.
 
@@ -20,11 +21,12 @@ Built by [Ansvar Systems](https://ansvar.eu) -- Stockholm, Sweden
 
 ## Why This Exists
 
-Ecuadorian legal research is scattered across Ecuador Law Reports, the Ecuador Gazette, and various government portals. Whether you're:
-- A **lawyer** validating citations in a brief or contract under Ecuadorian law
-- A **compliance officer** checking if the Data Protection Act 2019 provisions apply to your processing activities
-- A **legal tech developer** building tools on Ecuadorian legislation
-- A **researcher** tracing legislative history from colonial-era statutes to the 2010 Constitution
+Ecuadorian legal research means navigating lexis.com.ec (Ecuador's official legal database), the Registro Oficial (registroficial.gob.ec), and scattered PDF publications from the Asamblea Nacional. Whether you're:
+
+- A **lawyer** validating citations in a brief or contract
+- A **compliance officer** checking obligations under the LOPDP or the COIP
+- A **legal tech developer** building tools on Ecuadorian law
+- A **researcher** tracing legislative provisions across codigos organicos and leyes organicas
 
 ...you shouldn't need dozens of browser tabs and manual PDF cross-referencing. Ask Claude. Get the exact provision. With context.
 
@@ -38,12 +40,12 @@ This MCP server makes Ecuadorian law **searchable, cross-referenceable, and AI-r
 
 > Connect directly to the hosted version -- zero dependencies, nothing to install.
 
-**Endpoint:** `https://ecuador-law-mcp.vercel.app/mcp`
+**Endpoint:** `https://ecuadorian-law-mcp.vercel.app/mcp`
 
 | Client | How to Connect |
 |--------|---------------|
 | **Claude.ai** | Settings > Connectors > Add Integration > paste URL |
-| **Claude Code** | `claude mcp add ecuador-law --transport http https://ecuador-law-mcp.vercel.app/mcp` |
+| **Claude Code** | `claude mcp add ecuadorian-law --transport http https://ecuadorian-law-mcp.vercel.app/mcp` |
 | **Claude Desktop** | Add to config (see below) |
 | **GitHub Copilot** | Add to VS Code settings (see below) |
 
@@ -52,9 +54,9 @@ This MCP server makes Ecuadorian law **searchable, cross-referenceable, and AI-r
 ```json
 {
   "mcpServers": {
-    "ecuador-law": {
+    "ecuadorian-law": {
       "type": "url",
-      "url": "https://ecuador-law-mcp.vercel.app/mcp"
+      "url": "https://ecuadorian-law-mcp.vercel.app/mcp"
     }
   }
 }
@@ -65,9 +67,9 @@ This MCP server makes Ecuadorian law **searchable, cross-referenceable, and AI-r
 ```json
 {
   "github.copilot.chat.mcp.servers": {
-    "ecuador-law": {
+    "ecuadorian-law": {
       "type": "http",
-      "url": "https://ecuador-law-mcp.vercel.app/mcp"
+      "url": "https://ecuadorian-law-mcp.vercel.app/mcp"
     }
   }
 }
@@ -76,7 +78,7 @@ This MCP server makes Ecuadorian law **searchable, cross-referenceable, and AI-r
 ### Use Locally (npm)
 
 ```bash
-npx @ansvar/ecuador-law-mcp
+npx @ansvar/ecuadorian-law-mcp
 ```
 
 **Claude Desktop** -- add to `claude_desktop_config.json`:
@@ -87,9 +89,9 @@ npx @ansvar/ecuador-law-mcp
 ```json
 {
   "mcpServers": {
-    "ecuador-law": {
+    "ecuadorian-law": {
       "command": "npx",
-      "args": ["-y", "@ansvar/ecuador-law-mcp"]
+      "args": ["-y", "@ansvar/ecuadorian-law-mcp"]
     }
   }
 }
@@ -100,9 +102,9 @@ npx @ansvar/ecuador-law-mcp
 ```json
 {
   "mcp.servers": {
-    "ecuador-law": {
+    "ecuadorian-law": {
       "command": "npx",
-      "args": ["-y", "@ansvar/ecuador-law-mcp"]
+      "args": ["-y", "@ansvar/ecuadorian-law-mcp"]
     }
   }
 }
@@ -112,39 +114,68 @@ npx @ansvar/ecuador-law-mcp
 
 ## Example Queries
 
-Once connected, just ask naturally:
+Once connected, just ask naturally (in Spanish):
 
-- *"What does the Data Protection Act 2019 say about consent?"*
-- *"Is the Companies Act 2015 still in force?"*
-- *"Find provisions about cybersecurity in the Computer Misuse and Cybercrimes Act"*
-- *"What does the Constitution of Ecuador say about the right to privacy?"*
-- *"Search for data breach notification requirements in Ecuadorian law"*
-- *"What are the obligations under the National Payment Systems Act?"*
-- *"Validate this legal citation"*
-- *"Build a legal stance on personal data processing in Ecuador"*
-
----
-
-## Key Legislation Covered
-
-| Act | Year | Significance |
-|-----|------|-------------|
-| **Data Protection Act** | 2019 | Comprehensive data protection law modeled on EU GDPR; established the Office of the Data Protection Commissioner (ODPC) |
-| **Computer Misuse and Cybercrimes Act** | 2018 | Comprehensive cybercrime legislation (note: Sections 22, 23, 24, 27, and 53 were partially suspended by the High Court pending constitutional review) |
-| **Ecuador Information and Communications Act** | 1998 (amended) | Regulates telecommunications and ICT sector; establishes the Communications Authority of Ecuador |
-| **Companies Act** | 2015 | Modern company law framework replacing the Companies Act (Cap 486) |
-| **Consumer Protection Act** | 2012 | Consumer rights and fair trade practices |
-| **Access to Information Act** | 2016 | Right to access government-held information |
-| **National Payment Systems Act** | 2011 | Regulation of payment systems including mobile money (M-Pesa) |
-| **Constitution of Ecuador** | 2010 | Supreme law; Article 31 guarantees the right to privacy |
+- *"Buscar disposiciones sobre protección de datos personales en la LOPDP"*
+- *"¿Qué dice el Código Orgánico Integral Penal (COIP) sobre delitos informáticos?"*
+- *"Encontrar artículos del Código Civil sobre contratos y obligaciones"*
+- *"¿Qué requisitos establece la LOPDP para el tratamiento de datos sensibles?"*
+- *"Buscar disposiciones sobre derecho laboral en el Código del Trabajo"*
+- *"¿Está vigente la Ley de Comercio Electrónico, Firmas Electrónicas y Mensajes de Datos?"*
+- *"Construir una posición legal sobre responsabilidad empresarial en Ecuador"*
+- *"Validar la cita 'Art. 5 LOPDP'"*
 
 ---
 
-## Deployment Tier
+## What's Included
 
-**SMALL** -- Single tier, bundled SQLite database shipped with the npm package.
+> **Note:** This server is currently in initial ingestion. The infrastructure, tools, and deployment are live and operational. Legislation content is being added progressively from the Registro Oficial and lexis.com.ec. The database will be populated and this notice updated as ingestion completes.
 
-**Estimated database size:** ~80-150 MB (full corpus of Ecuadorian federal legislation)
+| Category | Count | Details |
+|----------|-------|---------|
+| **Laws / Codigos** | In progress | Federal and organic laws from Registro Oficial |
+| **Provisions** | In progress | Full-text searchable with FTS5 |
+| **Legal Definitions** | Planned | Extraction from code texts |
+| **Database Size** | ~34 MB (allocated) | Optimized SQLite, portable |
+| **Freshness Checks** | Automated | Monitoring against registroficial.gob.ec |
+
+**Verified data only** -- every citation validated against official sources. Zero LLM-generated content.
+
+---
+
+## Why This Works
+
+**Verbatim Source Text (No LLM Processing):**
+- All statute text is ingested from the Registro Oficial (registroficial.gob.ec) and lexis.com.ec
+- Provisions are returned **unchanged** from SQLite FTS5 database rows
+- Zero LLM summarization or paraphrasing -- the database contains statute text, not AI interpretations
+
+**Smart Context Management:**
+- Search returns ranked provisions with BM25 scoring (safe for context)
+- Provision retrieval gives exact text by law name and article number
+- Cross-references help navigate without loading everything at once
+
+**Technical Architecture:**
+```
+registroficial.gob.ec / lexis.com.ec --> Parse --> SQLite --> FTS5 snippet() --> MCP response
+                                           ^                        ^
+                                    Provision parser         Verbatim database query
+```
+
+### Traditional Research vs. This MCP
+
+| Traditional Approach | This MCP Server |
+|---------------------|-----------------|
+| Search lexis.com.ec by law name | Search by plain Spanish: *"protección de datos personales"* |
+| Navigate multi-article codes manually | Get the exact provision with context |
+| Manual cross-referencing between laws | `build_legal_stance` aggregates across sources |
+| "¿Está vigente esta ley?" --> check manually | `check_currency` tool --> answer in seconds |
+| Find OAS/CAN alignment --> dig through frameworks | `get_eu_basis` --> linked frameworks instantly |
+| No API, no integration | MCP protocol --> AI-native |
+
+**Traditional:** Search Registro Oficial --> Download PDF --> Ctrl+F --> Cross-reference codes --> Check amendments manually --> Repeat
+
+**This MCP:** *"¿Qué obligaciones establece la LOPDP para controladores de datos y cómo se alinea con el marco de la CAN?"* --> Done.
 
 ---
 
@@ -154,56 +185,39 @@ Once connected, just ask naturally:
 
 | Tool | Description |
 |------|-------------|
-| `search_legislation` | FTS5 full-text search across all provisions with BM25 ranking |
-| `get_provision` | Retrieve specific provision by statute + chapter/section |
-| `check_currency` | Check if statute is in force, amended, or repealed |
-| `validate_citation` | Validate citation against database (zero-hallucination check) |
-| `build_legal_stance` | Aggregate citations from statutes for a legal topic |
+| `search_legislation` | FTS5 full-text search across provisions with BM25 ranking. Supports Spanish-language quoted phrases, boolean operators, prefix wildcards |
+| `get_provision` | Retrieve specific provision by law name and article number (e.g., "LOPDP" + "Art. 5") |
+| `check_currency` | Check if a law is in force, amended, or repealed |
+| `validate_citation` | Validate citation against database -- zero-hallucination check. Supports "Art. 5 LOPDP", "COIP Art. 234" |
+| `build_legal_stance` | Aggregate citations from multiple laws for a legal topic |
 | `format_citation` | Format citations per Ecuadorian conventions (full/short/pinpoint) |
-| `list_sources` | List all available statutes with metadata |
-| `about` | Server info, capabilities, and coverage summary |
+| `list_sources` | List all available laws with metadata, coverage scope, and data provenance |
+| `about` | Server info, capabilities, dataset statistics, and coverage summary |
 
-### EU/International Law Integration Tools (5)
+### International Law Integration Tools (5)
 
 | Tool | Description |
 |------|-------------|
-| `get_eu_basis` | Get EU directives/regulations for Ecuadorian statute |
-| `get_ecuadorian_implementations` | Find Ecuadorian laws implementing EU act |
-| `search_eu_implementations` | Search EU documents with Ecuadorian implementation counts |
-| `get_provision_eu_basis` | Get EU law references for specific provision |
-| `validate_eu_compliance` | Check implementation status of EU directives |
+| `get_eu_basis` | Get international frameworks (OAS, CAN) that an Ecuadorian law aligns with |
+| `get_ecuadorian_implementations` | Find Ecuadorian laws implementing a specific international framework or convention |
+| `search_eu_implementations` | Search international documents with Ecuadorian alignment counts |
+| `get_provision_eu_basis` | Get international law references for a specific provision |
+| `validate_eu_compliance` | Check alignment status of Ecuadorian laws against international standards |
 
 ---
 
-## Why This Works
+## International Law Alignment
 
-**Verbatim Source Text (No LLM Processing):**
-- All statute text is ingested from official Ecuadorian government sources
-- Provisions are returned **unchanged** from SQLite FTS5 database rows
-- Zero LLM summarization or paraphrasing -- the database contains regulation text, not AI interpretations
+Ecuador is not an EU member state. Ecuadorian law develops through its own constitutional and National Assembly framework, with international alignment through:
 
-**Smart Context Management:**
-- Search returns ranked provisions with BM25 scoring (safe for context)
-- Provision retrieval gives exact text by statute identifier + chapter/section
-- Cross-references help navigate without loading everything at once
+- **OAS (Organization of American States)** -- Inter-American frameworks on human rights, anti-corruption, and digital governance; IACHR jurisprudence
+- **CAN (Comunidad Andina)** -- Andean Community regulatory frameworks on trade, customs, and commercial law; Decision 486 on industrial property
+- **UN Conventions** -- UNCAC (anti-corruption), Convention on the Rights of the Child, and international human rights instruments
+- **GDPR adequacy alignment** -- Ecuador's LOPDP (Ley Orgánica de Protección de Datos Personales) mirrors GDPR principles on consent, data subject rights, and accountability
 
-**Technical Architecture:**
-```
-Official Sources --> Parse --> SQLite --> FTS5 snippet() --> MCP response
-                     ^                       ^
-              Provision parser         Verbatim database query
-```
+The international bridge tools allow you to explore these alignment relationships -- checking which Ecuadorian provisions correspond to OAS or CAN requirements, and vice versa.
 
-### Traditional Research vs. This MCP
-
-| Traditional Approach | This MCP Server |
-|---------------------|-----------------|
-| Search official databases by statute number | Search by plain language |
-| Navigate multi-chapter statutes manually | Get the exact provision with context |
-| Manual cross-referencing between laws | `build_legal_stance` aggregates across sources |
-| "Is this statute still in force?" --> check manually | `check_currency` tool --> answer in seconds |
-| Find EU basis --> dig through EUR-Lex | `get_eu_basis` --> linked EU directives instantly |
-| No API, no integration | MCP protocol --> AI-native |
+> **Note:** International cross-references reflect alignment and framework relationships, not direct transposition. Ecuador develops its own legislative approach, and the alignment tools help identify where Ecuadorian and international law address similar domains.
 
 ---
 
@@ -211,9 +225,30 @@ Official Sources --> Parse --> SQLite --> FTS5 snippet() --> MCP response
 
 All content is sourced from authoritative Ecuadorian legal databases:
 
-- **[Ecuador Law Reports](https://ecuadorlaw.org)** -- Official Ecuadorian government legal database
+- **[Registro Oficial](https://www.registroficial.gob.ec/)** -- Official government gazette and primary legislative source
+- **[Lexis Finder](https://www.lexis.com.ec/)** -- Ecuador's official consolidated legal database
 
-**Verified data only** -- every citation is validated against official sources. Zero LLM-generated content.
+### Data Provenance
+
+| Field | Value |
+|-------|-------|
+| **Authority** | Republic of Ecuador / Asamblea Nacional |
+| **Primary source** | registroficial.gob.ec / lexis.com.ec |
+| **Languages** | Spanish (official language) |
+| **Coverage** | Federal organic laws, codes, and regulations (ingestion in progress) |
+| **Last ingested** | In progress |
+
+### Automated Freshness Checks
+
+A [GitHub Actions workflow](.github/workflows/check-updates.yml) monitors data sources for changes:
+
+| Check | Method |
+|-------|--------|
+| **Law amendments** | Drift detection against known provision anchors |
+| **New laws** | Comparison against Registro Oficial index |
+| **Repealed instruments** | Status change detection |
+
+**Verified data only** -- every citation validated against official sources. Zero LLM-generated content.
 
 ---
 
@@ -240,17 +275,22 @@ See [SECURITY.md](SECURITY.md) for the full policy and vulnerability reporting.
 
 > **THIS TOOL IS NOT LEGAL ADVICE**
 >
-> Statute text is sourced from official Ecuadorian government publications. However:
+> Statute text is sourced from the Registro Oficial and lexis.com.ec. However:
 > - This is a **research tool**, not a substitute for professional legal counsel
-> - **Court case coverage is limited** -- do not rely solely on this for case law research
+> - **Court case coverage is not included** -- do not rely solely on this for case law research
 > - **Verify critical citations** against primary sources for court filings
-> - **EU cross-references** are extracted from statute text, not EUR-Lex full text
+> - **International cross-references** reflect alignment relationships, not direct transposition
+> - **Ingestion is in progress** -- verify coverage before relying on search results for production use
 
 **Before using professionally, read:** [DISCLAIMER.md](DISCLAIMER.md) | [SECURITY.md](SECURITY.md)
 
 ### Client Confidentiality
 
 Queries go through the Claude API. For privileged or confidential matters, use on-premise deployment.
+
+### Bar Association
+
+For professional legal use in Ecuador, consult guidance from the **Federación Nacional de Abogados del Ecuador (FENALAW)** and the **Colegio de Abogados de Pichincha** regarding professional obligations.
 
 ---
 
@@ -259,8 +299,8 @@ Queries go through the Claude API. For privileged or confidential matters, use o
 ### Setup
 
 ```bash
-git clone https://github.com/Ansvar-Systems/Ecuador-law-mcp
-cd Ecuador-law-mcp
+git clone https://github.com/Ansvar-Systems/Ecuadorian-law-mcp
+cd Ecuadorian-law-mcp
 npm install
 npm run build
 npm test
@@ -272,6 +312,22 @@ npm test
 npm run dev                                       # Start MCP server
 npx @anthropic/mcp-inspector node dist/index.js   # Test with MCP Inspector
 ```
+
+### Data Management
+
+```bash
+npm run ingest              # Ingest laws from Registro Oficial / lexis.com.ec
+npm run build:db            # Rebuild SQLite database
+npm run drift:detect        # Run drift detection against anchors
+npm run check-updates       # Check for amendments and new laws
+npm run census              # Generate coverage census
+```
+
+### Performance
+
+- **Search Speed:** <100ms for most FTS5 queries
+- **Database Size:** ~34 MB allocated (growing as ingestion completes)
+- **Reliability:** 100% ingestion success rate
 
 ---
 
@@ -288,10 +344,7 @@ This server is part of **Ansvar's Compliance Suite** -- MCP servers that work to
 ### [@ansvar/security-controls-mcp](https://github.com/Ansvar-Systems/security-controls-mcp)
 **Query 261 security frameworks** -- ISO 27001, NIST CSF, SOC 2, CIS Controls, SCF, and more. `npx @ansvar/security-controls-mcp`
 
-### [@ansvar/automotive-cybersecurity-mcp](https://github.com/Ansvar-Systems/Automotive-MCP)
-**Query UNECE R155/R156 and ISO 21434** -- Automotive cybersecurity compliance. `npx @ansvar/automotive-cybersecurity-mcp`
-
-**30+ national law MCPs** covering Australia, Brazil, Canada, China, Denmark, Finland, France, Germany, Ghana, Iceland, India, Ireland, Israel, Italy, Japan, Ecuador, Netherlands, Nigeria, Norway, Singapore, Slovenia, South Korea, Sweden, Switzerland, Thailand, UAE, UK, and more.
+**70+ national law MCPs** covering Australia, Brazil, Canada, Colombia, Denmark, France, Germany, India, Ireland, Japan, Kenya, Malawi, Mexico, Netherlands, Nigeria, Norway, Panama, Singapore, Sweden, Switzerland, UAE, UK, and more.
 
 ---
 
@@ -300,23 +353,24 @@ This server is part of **Ansvar's Compliance Suite** -- MCP servers that work to
 Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 Priority areas:
-- Court case law expansion
-- EU cross-reference improvements
-- Historical statute versions and amendment tracking
-- Additional statutory instruments and regulations
+- Registro Oficial law ingestion (expanding corpus)
+- Corte Nacional de Justicia case law coverage
+- CAN Decision cross-reference mapping
+- GDPR alignment analysis for LOPDP
+- Historical law versions and amendment tracking
 
 ---
 
 ## Roadmap
 
-- [x] Core statute database with FTS5 search
-- [x] EU/international law cross-references
+- [x] Server infrastructure and tools
 - [x] Vercel Streamable HTTP deployment
 - [x] npm package publication
-- [ ] Court case law expansion
-- [ ] Historical statute versions (amendment tracking)
-- [ ] Preparatory works / explanatory memoranda
-- [ ] Lower court and tribunal decisions
+- [ ] Core legislation ingestion (LOPDP, COIP, Código Civil, Código de Comercio, Código del Trabajo)
+- [ ] Full Registro Oficial corpus
+- [ ] Court case law (Corte Nacional de Justicia)
+- [ ] Historical law versions (amendment tracking)
+- [ ] CAN regulatory cross-references
 
 ---
 
@@ -325,12 +379,12 @@ Priority areas:
 If you use this MCP server in academic research:
 
 ```bibtex
-@software{ecuador_law_mcp_2025,
+@software{ecuadorian_law_mcp_2026,
   author = {Ansvar Systems AB},
   title = {Ecuadorian Law MCP Server: AI-Powered Legal Research Tool},
-  year = {2025},
-  url = {https://github.com/Ansvar-Systems/Ecuador-law-mcp},
-  note = {Ecuadorian legal database with full-text search and EU cross-references}
+  year = {2026},
+  url = {https://github.com/Ansvar-Systems/Ecuadorian-law-mcp},
+  note = {Ecuadorian legislation sourced from Registro Oficial and lexis.com.ec}
 }
 ```
 
@@ -342,16 +396,16 @@ Apache License 2.0. See [LICENSE](./LICENSE) for details.
 
 ### Data Licenses
 
-- **Statutes & Legislation:** Ecuadorian Government (public domain)
-- **EU Metadata:** EUR-Lex (EU public domain)
+- **Statutes & Legislation:** Republic of Ecuador (public domain via Registro Oficial)
+- **International Framework Metadata:** OAS / CAN / UN (public domain)
 
 ---
 
 ## About Ansvar Systems
 
-We build AI-accelerated compliance and legal research tools for the global market. This MCP server started as our internal reference tool -- turns out everyone building compliance tools has the same research frustrations.
+We build AI-accelerated compliance and legal research tools for the global market. This MCP server started as our internal reference tool -- turns out everyone building for the Ecuadorian or Andean market has the same research frustrations.
 
-So we're open-sourcing it.
+So we're open-sourcing it. Navigating Ecuador's legal codes shouldn't require a law degree.
 
 **[ansvar.eu](https://ansvar.eu)** -- Stockholm, Sweden
 

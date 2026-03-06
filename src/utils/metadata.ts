@@ -9,6 +9,8 @@ export interface ResponseMetadata {
   jurisdiction: string;
   disclaimer: string;
   freshness?: string;
+  note?: string;
+  query_strategy?: string;
 }
 
 export interface ToolResponse<T> {
@@ -30,12 +32,12 @@ export function generateResponseMetadata(
   }
 
   return {
-    data_source: 'Ecuador Law (registroficial.gob.ec) — National Council for Law Reporting',
-    jurisdiction: 'KE',
+    data_source: 'Ecuador Law (asambleanacional.gob.ec) — Asamblea Nacional del Ecuador',
+    jurisdiction: 'EC',
     disclaimer:
-      'This data is sourced from Ecuador Law under Government Open Data principles. ' +
-      'The authoritative versions are in English. Swahili translations may be available for some documents. ' +
-      'Always verify with the official Ecuador Law portal (registroficial.gob.ec).',
+      'This data is sourced from official Ecuadorian government portals under public access principles. ' +
+      'The authoritative versions are in Spanish. ' +
+      'Always verify with the official Registro Oficial portal (registroficial.gob.ec).',
     freshness,
   };
 }
